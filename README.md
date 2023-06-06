@@ -1,5 +1,4 @@
 # Forest Festival
----
 [Link to website](https://github.com/lrchnnng/forestfest.git)
 
 ![Website mockups](image.jpg)
@@ -22,10 +21,9 @@
 1. Goal 1
 2. Goal 2
 3. Goal 3
-
+---
 
 ## UX
----
 
 ### Strategy
 
@@ -36,7 +34,7 @@
 ### Skeleton
 
 ### Surface
-
+---
 
 ## Features
 ---
