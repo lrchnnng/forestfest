@@ -44,10 +44,10 @@
 
 ## Testing
 ---
-**User Stories**
-**Lighthouse**
-**HTML and CSS Validation**
-**Known bugs and fixes**
+- **User Stories**
+- **Lighthouse**
+- **HTML and CSS Validation**
+- **Known bugs and fixes**
 
 ## Deployment
 ---
