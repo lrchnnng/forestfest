@@ -1,7 +1,7 @@
 # Forest Festival
 [Link to website](https://github.com/lrchnnng/forestfest.git)
 
-![Website mockups](image.jpg)
+![Website mockups](assets/wireframes.png)
 
 **Website purpose**
 
