@@ -53,6 +53,8 @@
 ---
 
 ## Credits
+- Google Fonts - Barrio and Open Sans
+
 ---
 
 ## Acknowledgments
