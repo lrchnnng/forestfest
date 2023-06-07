@@ -13,13 +13,13 @@
 5. About us - includes a contact us section 
 
 **Business goals**
-1. Goal 1
-2. Goal 2
+1. Goal 1 sell tickets
+2. Goal 2 show pictures of previous events to encourage users to buy tickets
 3. Goal 3
 
 **User goals**
-1. Goal 1
-2. Goal 2
+1. Goal 1 price of tickets
+2. Goal 2 date of festival
 3. Goal 3
 ---
 
