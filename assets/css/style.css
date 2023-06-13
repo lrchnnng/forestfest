@@ -9,7 +9,7 @@
 
 body {
     font-family: Open Sans;
-    padding-top: 100px;
+    padding-top: 56px;
 }
 
 h2, h3 {
@@ -19,11 +19,21 @@ h2, h3 {
 /* Nav Bar */
 .navbar-brand {
     font-family: Barrio;
-    font-size: largest;
+    font-size: 20px;
+    text-align: center;
 } 
 
 /* Hero Section */
+#hero-img {
+    width: 360px;
+    height: 180px;
+    object-fit: cover;
+}
 
+#hero-section {
+    background-color: var(--cc2);
+
+}
 
 /* Info cards */
 
