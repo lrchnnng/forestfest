@@ -1,3 +1,12 @@
+:root {
+    --main: #000000;
+    --cc1: #404040;
+    --cc2: #808080;
+    --cc3: #bfbfbf;
+    --cc4: #ffffff;
+    --link: #ff0000;
+}
+
 body {
     font-family: Open Sans;
 }
@@ -6,6 +15,8 @@ h2, h3 {
     font-family: Oswald, sans-serif;
 }
 
+/* Hero Section */
 #nav-logo > h3 {
     font-family: Barrio, sans-serif;
+    color: var(--main);
 }
