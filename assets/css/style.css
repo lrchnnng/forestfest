@@ -1,4 +1,5 @@
 :root {
+    /* colours */
     --main: #000000;
     --cc1: #404040;
     --cc2: #808080;
@@ -12,10 +13,6 @@ body {
     padding-top: 56px;
 }
 
-h2, h3 {
-    font-family: Oswald, sans-serif;
-}
-
 /* Nav Bar */
 .navbar-brand {
     font-family: Barrio;
@@ -26,7 +23,12 @@ h2, h3 {
 /* Hero Section */
 #hero-section {
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 0px 0;
+}
+
+#hero-section > #hero-card > h2 {
+    font-size: 24px;
+    font-family: Oswald;
 }
 
 #hero-img {
@@ -40,7 +42,7 @@ h2, h3 {
     text-align: center;
     max-width: fit-content;
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 24px 0 12px 0;
 }
 
 #hero-button {
@@ -61,16 +63,41 @@ h2, h3 {
 
 /* Info cards */
 #info-cards {
-    padding: 12px 8px;
-    width: auto;
-    height:fit-content
+    background-color: var(--cc4);
+    text-align: center;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 24px 8px;
 }
+
+#info-cards > div {
+    margin: 12px 0 24px 0;
+} 
 
 .info-card > span {
-    font-family: Barrio, sans-serif;
-    text-align: right;
+    font-family: Oswald;
+    font-size: 20px;
 }
-.info-button {
 
+.info-card > p {
+    font-family: Open Sans;
+    font-size: 16px;
+}
+
+.info-button {
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--cc3);
+    font-size: 16px;
+}
+
+.info-button > a {
+    text-decoration: none;
+    color: var(--cc4)
 }
 
