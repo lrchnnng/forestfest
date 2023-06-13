@@ -13,6 +13,10 @@ body {
     padding-top: 56px;
 }
 
+hr {
+    border-top: var(--cc2) solid 2px;
+}
+
 /* Nav Bar */
 .navbar-brand {
     font-family: Barrio;
@@ -123,7 +127,7 @@ footer > p {
 }
 
 input {
-    margin: 4px 0;
+    margin: 0 0 4px 0;
     border-radius: 8px;
     border: var(--cc2) solid 1px;
     padding: 2px 2px 2px 4px;
@@ -136,6 +140,12 @@ input {
     border-radius: 8px;
     text-align: center;
     padding: 2px 8px;
+}
+
+#submit:hover {
+    background-color: var(--cc2);
+    color: var(--cc4);
+
 }
 
 #copyright {
