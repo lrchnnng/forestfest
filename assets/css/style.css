@@ -3,5 +3,9 @@ body {
 }
 
 h2, h3 {
-    font-family: Barrio;
+    font-family: Oswald, sans-serif;
+}
+
+#nav-logo > h3 {
+    font-family: Barrio, sans-serif;
 }
