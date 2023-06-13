@@ -61,6 +61,11 @@ body {
     color: var(--cc4)
 }
 
+#hero-button:hover {
+    background-color: var(--cc2);
+}
+
+
 /* Info cards */
 #info-cards {
     background-color: var(--cc4);
@@ -95,6 +100,10 @@ body {
     border: none;
     background-color: var(--cc3);
     font-size: 16px;
+}
+
+.info-button:hover {
+    background-color: var(--cc2);
 }
 
 .info-button > a {
