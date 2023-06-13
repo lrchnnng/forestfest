@@ -16,14 +16,7 @@ h2, h3 {
 }
 
 /* Nav Bar */
-ul {
-    list-style: none;
-}
 
-li > a {
-    text-decoration: none;
-    color: var(--cc1);
-}
 
 /* Hero Section */
 #nav-logo > h3 {
