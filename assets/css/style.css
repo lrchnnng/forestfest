@@ -42,7 +42,7 @@ body {
     text-align: center;
     max-width: fit-content;
     margin: 0 auto;
-    padding: 24px 0 12px 0;
+    padding: 24px 12px 12px 12px;
 }
 
 #hero-button {
@@ -111,3 +111,20 @@ body {
     color: var(--cc4)
 }
 
+/* Footer */
+footer {
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer > p {
+    font-size: 16px;
+}
+
+input {
+    margin: 4px 0;
+}
+
+#copyright {
+    font-size: 10px;
+}
