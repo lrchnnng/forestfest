@@ -19,7 +19,7 @@ h2, h3 {
 /* Nav Bar */
 .navbar-brand {
     font-family: Barrio;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 } 
 
@@ -35,6 +35,23 @@ h2, h3 {
     background-color: var(--cc4);
     text-align: center;
     max-width: fit-content;
+    margin: 0 auto;
+}
+
+#hero-button {
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--cc1);
+}
+
+#hero-button > a {
+    text-decoration: none;
+    color: var(--cc4)
 }
 
 /* Info cards */
