@@ -24,8 +24,12 @@ h2, h3 {
 } 
 
 /* Hero Section */
-#hero-img {
+#hero-section {
     margin: 0 auto;
+    padding: 24px 0;
+}
+
+#hero-img {
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -56,5 +60,17 @@ h2, h3 {
 }
 
 /* Info cards */
+#info-cards {
+    padding: 12px 8px;
+    width: auto;
+    height:fit-content
+}
 
+.info-card > span {
+    font-family: Barrio, sans-serif;
+    text-align: right;
+}
+.info-button {
+
+}
 
