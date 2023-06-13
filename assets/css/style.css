@@ -130,6 +130,14 @@ input {
     font-size: 10px;
 }
 
+#submit {
+    font-size: 12px;
+    border: var(--cc2) solid 1px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 2px 8px;
+}
+
 #copyright {
     font-size: 10px;
 }
