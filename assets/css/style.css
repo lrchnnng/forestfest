@@ -5,7 +5,7 @@
     --cc2: #808080;
     --cc3: #bfbfbf;
     --cc4: #ffffff;
-    --link: #ff0000;
+    --fade: rgba(225,225,225,50%);
 }
 
 body {
@@ -31,8 +31,9 @@ hr {
 }
 
 #hero-section > #hero-card > h2 {
-    font-size: 24px;
+    font-size: 36px;
     font-family: Oswald;
+    font-weight: bolder;
 }
 
 #hero-img {
@@ -42,7 +43,6 @@ hr {
 }
 
 #hero-card {
-    background-color: var(--cc4);
     text-align: center;
     max-width: fit-content;
     margin: 0 auto;
@@ -115,10 +115,11 @@ hr {
     color: var(--cc4)
 }
 
-/* Video */
-video {
-    width: 100%;
-    
+/* Video Section */
+h4 {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
 }
 
 /* Footer */
@@ -156,4 +157,28 @@ input {
 
 #copyright {
     font-size: 10px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+    /* Hero Section */
+    #hero-card {
+        background-color: var(--fade);
+        text-align: left;
+        max-width: fit-content;
+        margin: 0 auto;
+        padding: 24px;
+        position: absolute;
+        left: 0px;
+        top: 115px;
+        border-radius: 0 16px 16px 0;
+    }
+
+    #hero-button {
+        margin: 0 auto;
+    }
+
+    /* Info Cards */
+    
+
 }
