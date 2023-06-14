@@ -115,7 +115,11 @@ hr {
     color: var(--cc4)
 }
 
-
+/* Video */
+video {
+    width: 100%;
+    
+}
 
 /* Footer */
 footer {
