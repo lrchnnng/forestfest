@@ -202,13 +202,24 @@ input {
     .info-card {
         width: 400px;
         height: fit-content;
+        background-color: var(--cc1);
         border: var(--cc2) solid 2px;
         border-radius: 10px;
         padding: 12px 24px;
         margin: 0 6px;
-    
     }
 
+    .info-card > span {
+        color: var(--cc4)
+    }
+
+    .info-card > p {
+        color: var(--cc3)
+    }
+
+    .info-button > a {
+        color: var(--cc1)
+    }
 }
 
 /* Desktop */
