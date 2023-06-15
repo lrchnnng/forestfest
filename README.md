@@ -1,5 +1,5 @@
 # Forest Festival
-[Link to website](https://github.com/lrchnnng/forestfest.git)
+[Link to website](https://lrchnnng.github.io/forestfest/)
 
 ![Website mockups](assets/wireframes.png)
 
