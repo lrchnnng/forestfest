@@ -162,6 +162,12 @@ input {
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
+    /* Nav Bar */
+    .navbar-brand {
+    font-family: Barrio;
+    font-size: 26gitpx;
+    } 
+  
     /* Hero Section */
     #hero-img {
         height: 520px;
@@ -188,6 +194,13 @@ input {
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
+    /* Nav Bar */
+    .navbar-brand {
+        font-family: Barrio;
+        font-size: 36px;
+        } 
+      
+    
     /* Hero Section */
     #hero-section {
         position: relative;
