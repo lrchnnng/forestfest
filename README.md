@@ -51,6 +51,7 @@
 - **Lighthouse**
 - **HTML and CSS Validation**
 - **Known bugs and fixes**
+    1. Struggled to get social media icons to show from [Font Awesome](https://fontawesome.com/v4/icons/). Re linked the stylesheet using the link from Code Institute, Love Running Project and the icons have appeared.
 
 ## Deployment
 ---

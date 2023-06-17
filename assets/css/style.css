@@ -144,6 +144,10 @@ footer {
     font-size: 24px;
 }
 
+#footer-icons {
+    color: var(--cc1);
+}
+
 /* Tablet */
 @media only screen and (min-width: 768px) {
     /* Nav Bar */
