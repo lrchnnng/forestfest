@@ -7,10 +7,9 @@
 
 **Website Sections:**
 1. Home/Landing Page
-2. Line Up - short introductions to featured artists
-3. Gallery - images from previous year
-4. Tickets - sign up page for pre-sale tickets
-5. About us - includes a contact us section 
+2. Line Up - A short introduction to some featured artists
+3. Gallery - A gallery page for images of the festival from prior years
+4. Tickets - A page to sign up to newsletter for early access to tickets
 
 **Business goals**
 1. Goal 1 sell tickets
