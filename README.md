@@ -12,14 +12,18 @@
 4. Tickets - A page to sign up to newsletter for early access to tickets
 
 **Business goals**
-1. Goal 1 sell tickets
-2. Goal 2 show pictures of previous events to encourage users to buy tickets
-3. Goal 3
+1. To sell tickets to the user
+2. To show the user images of previous years
+3. To promote featured artists for the event
+4. Encourage the user to sign up to the newsletter
 
-**User goals**
-1. Goal 1 price of tickets
-2. Goal 2 date of festival
-3. Goal 3
+**First Time and Recurring User goals**
+1. Easily find the price of the tickets
+2. Clearly see the dates of the event
+3. View the line up of the event
+4. Sign up to the newsletter
+5. Navigate to social media pages for more information and images
+
 ---
 
 ## UX
