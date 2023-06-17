@@ -130,39 +130,18 @@ iframe {
 
 /* Footer */
 footer {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 12px;
-}
-
-footer > p {
-    font-size: 16px;
-}
-
-input {
-    margin: 0 0 4px 0;
-    border-radius: 8px;
-    border: var(--cc2) solid 1px;
-    padding: 2px 2px 2px 4px;
-    font-size: 10px;
-}
-
-#submit {
-    font-size: 12px;
-    border: var(--cc2) solid 1px;
-    border-radius: 8px;
-    text-align: center;
-    padding: 2px 8px;
-}
-
-#submit:hover {
-    background-color: var(--cc2);
-    color: var(--cc4);
-
+    text-align: left;
+    padding: 24px;
 }
 
 #copyright {
-    font-size: 10px;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+}
+
+#footer-logo {
+    font-family: Barrio, sans-serif;
+    font-size: 24px;
 }
 
 /* Tablet */
