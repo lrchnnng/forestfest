@@ -10,7 +10,7 @@
 
 body {
     font-family: Open Sans, sans-serif;
-    padding-top: 56px;
+    padding-top: 77px;
 }
 
 hr {
@@ -137,15 +137,31 @@ footer {
 #copyright {
     font-family: Open Sans, sans-serif;
     font-size: 12px;
+    color: var(--cc2);
 }
 
 #footer-logo {
     font-family: Barrio, sans-serif;
     font-size: 24px;
+    color: var(--cc1);
 }
 
-#footer-icons {
-    color: var(--cc1);
+ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -12px;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0 24px;
+    font-size: 24px;
+}
+
+#footer-icons i {
+    color: var(--cc1)
 }
 
 /* Tablet */
@@ -225,20 +241,36 @@ footer {
         justify-items: center;
         align-items: center;
     }
+
+    /* Footer */
+    #footer-logo {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    #copyright {
+        text-align: center;
+        font-size: 16px;
+    }
 }
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
     /* Nav Bar */
     .navbar-brand {
-        font-family: Barrio;
-        font-size: 36px;
+        font-family: Barrio, sans-serif;
+        font-size: 24px;
         } 
+
+    .nav-item {
+        position: relative;
+        top: 10px;
+    }
     
     /* Hero Section */
     #hero-section {
         position: relative;
-    }
+    } 
 
     #hero-img {
         height: 810px;
@@ -296,5 +328,20 @@ footer {
     iframe {
         width: 75%;
         height: 600px;
+    }
+
+    /* Footer */
+    ul li {
+        font-size: 30px;
+    }
+
+    #footer-logo {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    #copyright {
+        text-align: center;
+        font-size: 20px;
     }
 }
