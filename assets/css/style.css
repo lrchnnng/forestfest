@@ -17,6 +17,13 @@ hr {
     border-top: var(--cc2) solid 2px;
 }
 
+h4 {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+}
+
+
 /* Nav Bar */
 .navbar-brand {
     font-family: Barrio;
@@ -116,12 +123,21 @@ hr {
     color: var(--cc4)
 }
 
-/* Video Section */
-h4 {
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    font-size: 24px;
+/* Line up Info Cards */
+.line-up-card {
+    width: 100%;
+    height: fit-content;
+    margin: 12px;
 }
+
+.line-up-card > span {
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Video Section */
 
 iframe {
     width: 100%;
@@ -166,6 +182,10 @@ ul li {
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
+    h4 {
+        font-size: 30px;
+    }
+    
     /* Nav Bar */
     .navbar-brand {
     font-family: Barrio;
@@ -226,9 +246,7 @@ ul li {
     }
 
     /* Video Section */
-    h4 {
-        font-size: 30px;
-    }
+   
 
     iframe {
         width: 80%;
