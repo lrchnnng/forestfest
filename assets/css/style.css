@@ -134,20 +134,29 @@ h4 {
     flex-direction: column;
 }
 
+.line-up-card img {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+
 .title-1, .title-2  {
     font-family: Oswald, sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 .title-1 {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .title-2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
-
+.line-up-card p {
+    text-align: left;
+}
 
 /* Video Section */
 
