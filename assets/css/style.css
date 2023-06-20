@@ -23,6 +23,8 @@ h4 {
     font-size: 24px;
 }
 
+/* Mobile */
+@media screen and (min-width:260px) {
 
 /* Nav Bar */
 .navbar-brand {
@@ -54,6 +56,7 @@ h4 {
     font-size: 36px;
     font-family: Oswald, sans-serif;
     font-weight: bolder;
+
 }
 
 #hero-card h3 {
@@ -212,6 +215,7 @@ ul li {
 #footer-icons i {
     color: var(--cc1)
 }
+}
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
@@ -243,6 +247,9 @@ ul li {
         border-radius: 0 16px 16px 0;
     }
     
+    #hero-card h3 {
+        font-size: 24px;
+    }
 
     /* Info Cards */
     #info-cards {
@@ -344,6 +351,10 @@ ul li {
         position: absolute;
         top: 220px;
         left: 0px;
+    }
+
+    #hero-card h3 {
+        font-size: 36px;
     }
 
     #hero-button > a {
