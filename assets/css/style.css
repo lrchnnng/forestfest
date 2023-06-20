@@ -284,9 +284,12 @@ h4 {
     }
 
     /* Line Up Info Cards */
+    #line-up-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
     .line-up-card {
-    
-        
     }
 
     /* Video Section */
