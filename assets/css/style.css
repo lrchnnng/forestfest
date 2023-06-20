@@ -1,22 +1,22 @@
 :root {
     /* colours */
-    --main: #000000;
-    --cc1: #404040;
-    --cc2: #808080;
-    --cc3: #bfbfbf;
-    --cc4: #ffffff;
-    --fade: rgba(225,225,225,50%);
+    --main: #112226;
+    --cc1: #223a40;
+    --cc2: #5a7073;
+    --cc3: #81a6a2;
+    --cc4: #d9d0c1;
+    --fade: rgba(217,208,193,50%);
 }
 
 body {
     font-family: Open Sans, sans-serif;
     padding-top: 77px;
-    background-color: var()
-    ;
+    background-color: var(--cc1);
+    color: var(--cc4);
 }
 
 hr {
-    border-top: var(--cc2) solid 2px;
+    border-top: var(--cc3) solid 2px;
 }
 
 h4 {
@@ -54,7 +54,7 @@ h4 {
         padding: 24px 12px 12px 12px;
     }
 
-    #hero-card > h2 {
+    #hero-card h2 {
         font-size: 36px;
         font-family: Oswald, sans-serif;
         font-weight: bolder;
@@ -74,16 +74,17 @@ h4 {
         padding: 16px 24px;
         border-radius: 8px;
         border: none;
-        background-color: var(--cc1);
+        background-color: var(--main);
     }
 
     #hero-button > a {
         text-decoration: none;
-        color: var(--cc4)
+        padding: 6px;
+        color: var(--cc4);
     }
 
     #hero-button:hover {
-        background-color: var(--cc2);
+        background-color: var(--cc1);
     }
 
     /* Info cards */
@@ -97,17 +98,20 @@ h4 {
 
     #info-cards > div {
         margin: 12px 0 24px 0;
+        padding: 24px;
     } 
 
     .info-card > span {
         font-family: Oswald;
         font-size: 20px;
+        color: var(--cc4);
     }
 
     .info-card > p {
         font-family: Open Sans;
         font-size: 16px;
         text-align: center;
+        color: var(--fade);
     }
 
     .info-button {
@@ -118,12 +122,12 @@ h4 {
         padding: 16px 24px;
         border-radius: 8px;
         border: none;
-        background-color: var(--cc3);
+        background-color: var(--cc2);
         font-size: 16px;
     }
 
     .info-button:hover {
-        background-color: var(--cc2);
+        background-color: var(--main);
     }
 
     .info-button > a {
@@ -141,20 +145,22 @@ h4 {
     #line-up-img {
         width: 100%;
     }
-
+    
     .line-up-card {
+        width: fit-content;
         height: fit-content;
-        margin: 12px;
+        margin: 12px auto;
         padding: 12px;
-        border: var(--cc2) solid 3px;
+        border: var(--fade) solid 3px;
         border-radius: 10%;
         display: flex;
         flex-direction: column;
         filter:grayscale(80%);
+        /* Thanks to developer.mozilla.org for the greyscale filter */
     }
 
     .line-up-card:hover {
-        border: var(--cc1) solid 3px;
+        border: var(--cc4) solid 3px;
         filter: grayscale(0%);
     }
 
@@ -172,16 +178,12 @@ h4 {
 
     .title-1 {
         font-size: 20px;
+        color: var(--cc4)
     }
 
     .title-2 {
         font-size: 16px;
-    }
-
-    .line-up-card p {
-        text-align: left;
-        width: 100%;
-        padding-top: 12px;
+        color: var(--cc3);
     }
 
     /* Video Section */
@@ -205,7 +207,7 @@ h4 {
     #footer-logo {
         font-family: Barrio, sans-serif;
         font-size: 24px;
-        color: var(--cc1);
+        color: var(--cc3);
     }
 
     ul {
@@ -223,7 +225,7 @@ h4 {
     }
 
     #footer-icons i {
-        color: var(--cc1)
+        color: var(--cc3)
     }
 }
 
@@ -257,8 +259,17 @@ h4 {
         border-radius: 0 16px 16px 0;
     }
     
+    #hero-card h2 {
+        color: var(--main)
+    }
+
     #hero-card h3 {
         font-size: 24px;
+        color: var(--cc1);
+    }
+
+    #hero-card p {
+        color: var(--cc1)
     }
 
     /* Info Cards */
@@ -269,30 +280,27 @@ h4 {
         gap: 12px;
     }
 
-    .info-card > span {
+    .info-card span {
         font-size: 30px;
         padding: 6px 0px;
+        color: var(--cc4);
     }
 
     .info-card {
         width: 400px;
         height: fit-content;
-        border: var(--cc1) solid 2px;
+        border: var(--fade) solid 2px;
         border-radius: 10%;
         padding: 24px 24px;
         margin: 0 6px;
     }
 
-    .info-card > span {
-        color: var(--cc1)
-    }
-
     .info-card > p {
-        color: var(--cc1)
+        color: var(--fade);
     }
 
-    .info-button > a {
-        color: var(--cc1)
+    .info-button a {
+        color: var(--cc4)
     }
 
     /* Line Up Info Cards */
