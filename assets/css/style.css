@@ -128,9 +128,15 @@ h4 {
     height: fit-content;
     margin: 12px;
     padding: 12px;
-    border: var(--cc1) solid 2px;
+    border: var(--cc1) solid 1px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.line-up-card:hover {
+    border: var(--cc1) solid 3px;
+    filter:grayscale(100%);
 }
 
 .line-up-card img {
