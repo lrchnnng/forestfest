@@ -138,11 +138,12 @@ h4 {
         border-radius: 10px;
         display: flex;
         flex-direction: column;
+        filter:grayscale(80%);
     }
 
     .line-up-card:hover {
         border: var(--cc1) solid 3px;
-        filter:grayscale(100%);
+        filter: grayscale(0%);
     }
 
     .line-up-card img {
@@ -215,7 +216,7 @@ h4 {
 }
 
 /* Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {d
     h4 {
         font-size: 30px;
     }
@@ -287,9 +288,6 @@ h4 {
     #line-up-container {
         display: grid;
         grid-template-columns: auto auto;
-    }
-
-    .line-up-card {
     }
 
     /* Video Section */
