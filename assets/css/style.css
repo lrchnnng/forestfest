@@ -317,11 +317,14 @@ h4 {
     #line-up-container {
         display: grid;
         grid-template-columns: auto auto;
-        margin: 0 42px;
     }
 
-    .line-up-card img {
-        height: 260px;
+    .line-up-card {
+        margin: 0 auto;
+        
+    }
+
+    .artist-image {
     }
 
     /* Video Section */
