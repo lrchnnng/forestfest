@@ -216,9 +216,8 @@ h4 {
 
     ul {
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        position: relative;
-        top: -12px;
         text-align: center;
     }
 
@@ -226,6 +225,7 @@ h4 {
         list-style-type: none;
         padding: 0 24px;
         font-size: 24px;
+        
     }
 
     #footer-icons i {
@@ -349,12 +349,7 @@ h4 {
     .navbar-brand {
         font-family: Barrio, sans-serif;
         font-size: 24px;
-        } 
-
-    .nav-item {
-        position: relative;
-        top: 10px;
-    }
+        }
     
     /* Hero Section */
     #hero-section {
@@ -421,7 +416,6 @@ h4 {
     #line-up-container {
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        
     }
 
     .line-up-card {
