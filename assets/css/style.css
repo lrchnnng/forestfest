@@ -146,8 +146,12 @@ h4 {
         width: 100%;
     }
     
+    #line-up-container {
+        width: 100%;
+    }
+
     .line-up-card {
-        width: fit-content;
+        width: 80%;
         height: fit-content;
         margin: 12px auto;
         padding: 12px;
@@ -164,9 +168,10 @@ h4 {
         filter: grayscale(0%);
     }
 
-    .line-up-card img {
-        height: 200px;;
+    .artist-image {
+        width: 80%;
         margin: 0 auto;
+        padding: 0 0 12px 0;
         border-radius: 10%;
     }
 
@@ -312,7 +317,7 @@ h4 {
     #line-up-container {
         display: grid;
         grid-template-columns: auto auto;
-        margin: 0 36px;
+        margin: 0 42px;
     }
 
     .line-up-card img {
