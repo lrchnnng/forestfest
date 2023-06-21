@@ -89,7 +89,6 @@ h4 {
 
     /* Info cards */
     #info-cards {
-        background-color: ;
         text-align: center;
         max-width: fit-content;
         margin: 0 auto;
@@ -153,7 +152,7 @@ h4 {
     .line-up-card {
         width: 80%;
         height: fit-content;
-        margin: 12px auto;
+        margin: 24px auto;
         padding: 12px;
         border: var(--fade) solid 3px;
         border-radius: 10%;
@@ -316,15 +315,7 @@ h4 {
 
     #line-up-container {
         display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    .line-up-card {
-        margin: 0 auto;
-        
-    }
-
-    .artist-image {
+        grid-template-columns: 50% 50%;
     }
 
     /* Video Section */
@@ -429,12 +420,16 @@ h4 {
 
     #line-up-container {
         display: grid;
-        grid-template-columns: auto auto auto;
-        padding: 12px;
+        grid-template-columns: 33% 33% 33%;
+        
     }
 
-    .line-up-card img {
-        height: 260px;
+    .line-up-card {
+        padding: 24px;
+    }
+
+    .artist-image {
+        width: 90%;
     }
 
     /* Video Section */

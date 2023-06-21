@@ -52,7 +52,7 @@
 - **HTML and CSS Validation**
 - **Known bugs and fixes**
     1. Struggled to get social media icons to show from [Font Awesome](https://fontawesome.com/v4/icons/). Re linked the stylesheet using the link from Code Institute, Love Running Project and the icons have appeared.
-    2. When creating responsive artist info cards on tickets.html I found that one side of the grid increased in height while the other side stayed the same. 
+    2. When creating responsive artist info cards on tickets.html I found that one side of the grid increased in height while the other side stayed the same. Fixed by specifying width in percentages rather than relying on auto.
 
 ## Deployment
 ---
