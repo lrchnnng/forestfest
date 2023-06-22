@@ -198,14 +198,15 @@ h4 {
     }
 
     /* Gallery Section */
-    #gallery {
-        clear: both;
+    #gallery-title h2 {
+        text-align: center;
+        padding-bottom: 12px;
+        font-size: 20px;
     }
 
     #gallery img {
         width: 100%;
     }
-
 
     /* Footer */
     footer {
@@ -343,6 +344,12 @@ h4 {
     }
 
      /* Gallery Section */
+     #gallery-title h2 {
+        text-align: center;
+        padding-bottom: 12px;
+        font-size: 32px;
+    }
+
      #gallery {
         line-height: 0;
         column-count: 2;
@@ -457,7 +464,11 @@ h4 {
     /* Gallery Section */
     #gallery {
         column-count: 3;
-}
+    }
+
+    #gallery-title h2 {
+        font-size: 42px;
+    }
 
     /* Footer */
     ul li {
