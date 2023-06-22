@@ -344,7 +344,6 @@ h4 {
 
      /* Gallery Section */
      #gallery {
-        clear: both;
         line-height: 0;
         column-count: 2;
         column-gap: 0;
@@ -454,6 +453,11 @@ h4 {
         width: 75%;
         height: 600px;
     }
+
+    /* Gallery Section */
+    #gallery {
+        column-count: 3;
+}
 
     /* Footer */
     ul li {
