@@ -123,7 +123,6 @@ h4 {
         border-radius: 8px;
         border: none;
         background-color: var(--cc2);
-        font-size: 16px;
     }
 
     .info-button:hover {
@@ -209,11 +208,24 @@ h4 {
     }
 
     #sign-up {
-        display: flexbox;
-        flex-direction: column;
-        margin: 24px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 12px;
+        background-color: var(--main);
     }
 
+    #submit {
+        width: fit-content;
+        height: fit-content;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 12px;
+        margin-top: 12px;
+        border-radius: 8px;
+        border: none;
+        background-color: var(--cc2);
+        color: var(--cc4);
+    }
 
     /* Gallery Section */
     #gallery-title h2 {
