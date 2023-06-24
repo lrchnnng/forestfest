@@ -46,27 +46,33 @@
         <h3>Early bird tickets available soon</h3>
         <p>Sign up below</p>
       </div>
-      <form>
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-        <input type="email" placeholder="Email">
+      <form id="sign-up" action="https://formdump.codeinstitute.net/" method="post">
+        <input type="text" placeholder="First Name" required>
+        <br>
+        <input type="text" placeholder="Last Name" required>
+        <br>
+        <input type="email" placeholder="Email" required>
+        <br>
         <p>Preferred ticket type:</p>
         <label>
-          <input type="radio"> 1 Day Camping
+          <input id="1camp" type="radio" name="ticket" value="1-day-camp"> 1 Day Camping
         </label>
+        <br>
         <label>
-          <input type="radio"> Weekend Camping
+          <input id="wknd-camp" type="radio" name="ticket" value="weekend-camp"> Weekend Camping
         </label>
+        <br>
         <label>
-          <input type="radio"> 1 Day Glamping
+          <input id="1glamp" type="radio" name="ticket" value="1-day-glamp"> 1 Day Glamping
         </label>
+        <br>
         <label>
-          <input type="radio"> Weekend Glamping
-        </label>      
+          <input id="wknd-camp" type="radio" name="ticket" value="weekend-glamp"> Weekend Glamping
+        </label>
+        <br>
+        <input type="submit">
       </form>
     </section>
-
-
     <hr>
     <!---Beginning of footer-->
     <footer>
