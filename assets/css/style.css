@@ -197,35 +197,7 @@ h4 {
     }
 
     /* Newsletter Form */
-    input {
-        margin: 6px;
-        
-    }
     
-    #newsletter-container {
-        text-align: center;
-        padding: 0 24px;
-    }
-
-    #sign-up {
-        width: 80%;
-        margin: 0 auto;
-        padding: 12px;
-        background-color: var(--main);
-    }
-
-    #submit {
-        width: fit-content;
-        height: fit-content;
-        font-size: 16px;
-        line-height: 16px;
-        padding: 12px;
-        margin-top: 12px;
-        border-radius: 8px;
-        border: none;
-        background-color: var(--cc2);
-        color: var(--cc4);
-    }
 
     /* Gallery Section */
     #gallery-title h2 {
@@ -386,6 +358,9 @@ h4 {
         column-count: 2;
         column-gap: 0;
     }
+
+    /* Newsletter Form */
+
 
     /* Footer */
     #footer-logo {
