@@ -197,9 +197,25 @@ h4 {
     }
 
     /* Newsletter Form */
+    #newsletter-container {
+        font-family: Oswald, sans-serif;
+        font-size: 28px;
+        text-align: center;
+        background: var(--fade);
+        width: 80%;
+        margin: auto;
+        padding: 12px 24px;
+        color: var(--main);
+    }
+
+    #newsletter-container p {
+        font-family: Oswald, sans-serif;
+        font-size: 16px;
+    }
+
     form {
         width: 90%;
-        margin: 0 auto;
+        margin: 12px auto;
         background: var(--main);
         padding: 12px;
       }
