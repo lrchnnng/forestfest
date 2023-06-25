@@ -378,13 +378,12 @@ h4 {
 
     /* Newsletter Form */
     form {
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
+        width: fit-content;
     }
     
-    
+    #about-you {
+       width: 100%;
+    }
 
     /* Footer */
     #footer-logo {
