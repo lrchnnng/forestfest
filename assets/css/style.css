@@ -197,7 +197,24 @@ h4 {
     }
 
     /* Newsletter Form */
-    
+    form {
+        width: 90%;
+        margin: 0 auto;
+        background: var(--main);
+        padding: 12px;
+      }
+      
+      div {
+        margin-bottom: 10px;
+      }
+      
+      legend {
+        padding: 10px;
+      }
+
+      input {
+        margin: 6px;
+      }
 
     /* Gallery Section */
     #gallery-title h2 {
@@ -360,7 +377,14 @@ h4 {
     }
 
     /* Newsletter Form */
-
+    form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    
+    
 
     /* Footer */
     #footer-logo {

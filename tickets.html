@@ -44,9 +44,34 @@
     <section id="newsletter">
       <div id="newsletter-container">
         <h3>Early bird tickets available soon</h3>
-        <p>Sign up below</p>
+        <p>Sign up below to be notified</p>
       </div>
-      
+      <form id="sign-up" action="https://formdump.codeinstitute.net/" method="post">
+        <fieldset id="about-you">      
+            <input type="text" id="name" name="name" placeholder="First Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </fieldset>
+        <fieldset id="ticket-type">
+          <legend>Preferred ticket type: </legend>
+          <div>
+            <input type="checkbox" id="day" name="ticket" value="day" checked>
+            <label for="day">Day Pass</label>
+          </div>
+          <div>
+            <input type="checkbox" id="camp" name="ticket" value="camp">
+            <label for="camp">Camping</label>
+          </div>
+          <div>
+            <input type="checkbox" id="yurt" name="ticket" value="yurt">
+            <label for="yurt">Yurt Hire</label>
+          </div>
+          <div>
+            <input type="checkbox" id="vip" name="ticket" value="vip">
+            <label for="vip">VIP Experience</label>
+          </div>
+        </fieldset>
+        <input type="submit">
+      </form>
     </section>
     <hr>
     <!---Beginning of footer-->
