@@ -1,23 +1,45 @@
 # Forest Festival
 [Link to website](https://lrchnnng.github.io/forestfest/)
 
-![Website mockups](assets/wireframes.png)
+## Table of contents
 
-**Website purpose**
+- [Forest Festival](#forest-festival)
+  - [Table of contents](#table-of-contents)
+  - [Website Information](#website-information)
+    - [Website purpose](#website-purpose)
+    - [Website Sections:](#website-sections)
+    - [Business goals](#business-goals)
+    - [First Time and Recurring User goals](#first-time-and-recurring-user-goals)
+  - [UX](#ux)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Acknowledgments](#acknowledgments)
 
-**Website Sections:**
+## Website Information
+
+### Website purpose
+
+### Website Sections:
 1. Home/Landing Page
 2. Line Up - A short introduction to some featured artists
 3. Gallery - A gallery page for images of the festival from prior years
 4. Tickets - A page to sign up to newsletter for early access to tickets
 
-**Business goals**
+### Business goals
 1. To sell tickets to the user
 2. To show the user images of previous years
 3. To promote featured artists for the event
 4. Encourage the user to sign up to the newsletter
 
-**First Time and Recurring User goals**
+### First Time and Recurring User goals
 1. Easily find the price of the tickets
 2. Clearly see the dates of the event
 3. View the line up of the event
@@ -26,7 +48,7 @@
 
 ---
 
-## UX
+## UX 
 
 ### Strategy
 
