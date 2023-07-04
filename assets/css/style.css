@@ -214,7 +214,7 @@ h4 {
     }
 
     form {
-        width: 90%;
+        width: 80%;
         margin: 12px auto;
         background: var(--main);
         padding: 12px;
@@ -230,6 +230,17 @@ h4 {
 
       input {
         margin: 6px;
+        padding: 0 6px;
+      }
+
+      #submit {
+        width: fit-content;
+        height:fit-content;
+        background-color: var(--cc3);
+        border-radius: 10px;
+        color: var(--main);
+        font-weight: bold;
+        padding: 6px 12px;
       }
 
     /* Gallery Section */
@@ -290,10 +301,19 @@ h4 {
     /* Nav Bar */
     .navbar-brand {
     font-family: Barrio;
-    font-size: 26px;
+    font-size: 16px;
     color: var(--cc1);
     } 
   
+    .navbar {
+        height: 50px;
+    }
+
+    .nav-item {
+        position: relative;
+        top: 10px;
+    }
+
     /* Hero Section */
     #hero-img {
         height: 520px;
@@ -393,12 +413,23 @@ h4 {
     }
 
     /* Newsletter Form */
+    #newsletter-container {
+        width:fit-content;
+        padding: 24px;
+        font-size: 42px;
+        
+    }
+
     form {
         width: fit-content;
     }
     
     #about-you {
        width: 100%;
+    }
+
+    #submit {
+        margin: 0;
     }
 
     /* Footer */

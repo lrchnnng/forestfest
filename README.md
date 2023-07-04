@@ -33,6 +33,7 @@
 ### Scope
 
 ### Structure
+[Wireframes](assets/docs/ff-wireframes.pdf)
 
 ### Skeleton
 
