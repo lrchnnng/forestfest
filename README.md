@@ -33,7 +33,13 @@
 ### Scope
 
 ### Structure
-[Wireframes](assets/docs/ff-wireframes.pdf)
+![Wireframes for index.html](assets/images/home-wireframes.jpg)
+
+![Wireframes for line-up.html](assets/images/line-up-wireframes.jpg)
+
+![Wireframes for gallery.html](assets/images/gallery-wireframes.jpg)
+
+![Wireframes for tickets.html](assets/images/tickets-wireframes.jpg)
 
 ### Skeleton
 
