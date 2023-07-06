@@ -76,11 +76,8 @@ h4 {
         border-radius: 8px;
         border: none;
         background-color: var(--main);
-    }
-
-    #hero-button > a {
         text-decoration: none;
-        padding: 6px;
+        padding: 12px;
         color: var(--cc4);
     }
 
@@ -118,20 +115,16 @@ h4 {
         width: fit-content;
         height: fit-content;
         font-size: 16px;
-        line-height: 16px;
-        padding: 16px 24px;
+        margin: 6px;
+        padding: 12px ;
         border-radius: 8px;
-        border: none;
         background-color: var(--cc2);
+        text-decoration: none;
+        color: var(--cc4)
     }
 
     .info-button:hover {
         background-color: var(--main);
-    }
-
-    .info-button > a {
-        text-decoration: none;
-        color: var(--cc4)
     }
 
     /* Line up Info Cards */
