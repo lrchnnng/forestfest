@@ -33,26 +33,28 @@
 3. Gallery - A gallery page for images of the festival from prior years
 4. Tickets - A page to sign up to newsletter for early access to tickets
 
-### Business goals
+---
+
+## UX 
+
+### Strategy
+The first plane of UX is **strategy**. This builds the foundation on which the rest of the planes are built, focusing on the main goals of the website.
+
+#### Business goals
 1. To sell tickets to the user
 2. To show the user images of previous years
 3. To promote featured artists for the event
 4. Encourage the user to sign up to the newsletter
 
-### First Time and Recurring User goals
+#### First Time and Recurring User goals
 1. Easily find the price of the tickets
 2. Clearly see the dates of the event
 3. View the line up of the event
 4. Sign up to the newsletter
 5. Navigate to social media pages for more information and images
 
----
-
-## UX 
-
-### Strategy
-
 ### Scope
+
 
 ### Structure
 ![Wireframes for index.html](assets/images/README-images/index-wireframes.jpg)
