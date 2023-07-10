@@ -54,7 +54,7 @@ The first plane of UX is **strategy**. This builds the foundation on which the r
 5. Navigate to social media pages for more information and images
 
 ### Scope
-
+The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter?
 
 ### Structure
 ![Wireframes for index.html](assets/images/README-images/index-wireframes.jpg)
