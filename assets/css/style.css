@@ -1,22 +1,25 @@
 :root {
     /* colours */
-    --main: #112226;
-    --cc1: #223a40;
-    --cc2: #5a7073;
-    --cc3: #81a6a2;
-    --cc4: #d9d0c1;
-    --fade: rgba(217,208,193,50%);
+    --head-text: #06281e;
+    --main-text: #0d503c;
+    --secondary-text: d2f4ea;
+    --button-1: #13795b;
+    --button-2: #20c997;
+    --decoration: #1aa179;
+    --background: white;
+
+    --fade: rgba(193, 223, 229, 0.75);
 }
 
 body {
     font-family: Open Sans, sans-serif;
     padding-top: 77px;
-    background-color: var(--cc1);
-    color: var(--cc4);
+    background-color: var(--background);
+    color: var(--main-text);
 }
 
 hr {
-    border-top: var(--cc3) solid 2px;
+    border-top: var(--decoration) solid 2px;
 }
 
 h4 {
@@ -33,7 +36,7 @@ h4 {
         font-family: Barrio;
         font-size: 16px;
         text-align: center;
-        color: var(--cc2);
+        color: var(--head-text);
     } 
 
     /* Hero Section */
@@ -75,10 +78,9 @@ h4 {
         padding: 16px 24px;
         border-radius: 8px;
         border: none;
-        background-color: var(--main);
         text-decoration: none;
         padding: 12px;
-        color: var(--cc4);
+        color: var(--main-text);
     }
 
     #hero-button:hover {
