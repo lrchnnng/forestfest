@@ -2,7 +2,7 @@
     /* colours */
     --head-text: #06281e;
     --main-text: #0d503c;
-    --secondary-text: d2f4ea;
+    --secondary-text: #d2f4ea;
     --button-1: #13795b;
     --button-2: #20c997;
     --decoration: #1aa179;
@@ -30,6 +30,40 @@ h4 {
 
 /* Mobile */
 @media screen and (min-width:260px) {
+    
+    /* Button Styling */
+    .button {
+        border-radius: 8px;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        font-family: Open Sans, sans-serif;
+        text-decoration: none;
+    }
+
+    .main-button {
+        background-color: var(--button-1);
+        color: var(--secondary-text);           
+    }
+
+    .main-button:hover {
+        background-color: var(--background);
+        border: solid 2px var(--button-1);
+        color: var(--button-1);
+    }
+
+    .sec-button {
+        background-color: var(--button-2);
+        color: var(--secondary-text);
+    }
+
+    .sec-button:hover {
+        background-color: var(--background);
+        border: solid 2px var(--button-2);
+        color: var(--button-2
+        );
+    }
+
 
     /* Nav Bar */
     .navbar-brand {
@@ -67,24 +101,6 @@ h4 {
     #hero-card h3 {
         font-family: Oswald, sans-serif;
         font-size: 20px;
-    }
-
-    #hero-button {
-        width: fit-content;
-        height: fit-content;
-        font-size: 16px;
-        font-family: Open Sans, sans-serif;
-        line-height: 16px;
-        padding: 16px 24px;
-        border-radius: 8px;
-        border: none;
-        text-decoration: none;
-        padding: 12px;
-        color: var(--main-text);
-    }
-
-    #hero-button:hover {
-        background-color: var(--cc2);
     }
 
     /* Info cards */
