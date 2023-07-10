@@ -57,6 +57,8 @@ The first plane of UX is **strategy**. This builds the foundation on which the r
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter?
 
 ### Structure
+The **structure** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
+
 ![Wireframes for index.html](assets/images/README-images/index-wireframes.jpg)
 
 ![Wireframes for line-up.html](assets/images/README-images/artist-wireframes.jpg)
