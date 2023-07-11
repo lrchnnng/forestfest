@@ -145,13 +145,7 @@ h4 {
         background-color: var(--main);
     }
 
-    /* Line up Info Cards */
-    #line-up-img-cont {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
+    /* Artist Info Cards */
     #line-up-img {
         width: 100%;
     }

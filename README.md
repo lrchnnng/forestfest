@@ -100,4 +100,5 @@ Interface with which user interacts, buttons
 ---
 
 ## Acknowledgments
+- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) for the grayscale image filter
 ---
