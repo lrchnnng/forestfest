@@ -155,21 +155,15 @@ h4 {
     }
 
     .line-up-card {
+        background-color: var(--decoration);
         width: 80%;
         height: fit-content;
         margin: 24px auto;
-        padding: 12px;
-        border: var(--fade) solid 3px;
+        padding: 24px 6px;
         border-radius: 10%;
         display: flex;
         flex-direction: column;
-        filter:grayscale(80%);
         /* Thanks to developer.mozilla.org for the greyscale filter */
-    }
-
-    .line-up-card:hover {
-        border: var(--cc4) solid 3px;
-        filter: grayscale(0%);
     }
 
     .artist-image {
