@@ -194,15 +194,15 @@ h4 {
     }
 
     /* Newsletter Form */
-    #newsletter-container {
+    #newsletter-title {
+        background: var(--main-text);
+        margin: 12px 24px;
+        padding: 24px 12px;
         font-family: Oswald, sans-serif;
         font-size: 28px;
         text-align: center;
-        background: var(--fade);
-        width: 80%;
-        margin: auto;
-        padding: 12px 24px;
-        color: var(--main);
+        text-transform: uppercase;
+        color: var(--secondary-text);
     }
 
     #newsletter-container p {
@@ -211,34 +211,27 @@ h4 {
     }
 
     form {
-        width: 80%;
-        margin: 12px auto;
-        background: var(--main);
+        margin: 24px;
         padding: 12px;
-      }
-      
-      div {
-        margin-bottom: 10px;
-      }
-      
-      legend {
-        padding: 10px;
-      }
+        border: solid 2px var(--decoration);
+        border-radius: 2%;
+        color: var(--main-text);
+    }
 
-      input {
+    input {
         margin: 6px;
         padding: 0 6px;
-      }
+        border: solid 2px var(--decoration);
+    }
 
-      #submit {
-        width: fit-content;
-        height:fit-content;
-        background-color: var(--cc3);
+    #submit {
+        background-color: var(--button-2);
         border-radius: 10px;
-        color: var(--main);
+        border: none;
+        color: var(--secondary-text);
         font-weight: bold;
         padding: 6px 12px;
-      }
+    }
 
     /* Gallery Section */
     #gallery-title h2 {
@@ -253,39 +246,35 @@ h4 {
     }
 
     /* Footer */
-    footer {
+    #footer-text {
         text-align: left;
-        padding: 24px;
-    }
-
-    #copyright {
-        font-family: Open Sans, sans-serif;
-        font-size: 12px;
-        color: var(--cc2);
+        margin: 24px 0 0 12px;
+        padding: 0 24px;
     }
 
     #footer-logo {
         font-family: Barrio, sans-serif;
         font-size: 24px;
-        color: var(--cc3);
+        color: var(--main-text);
     }
 
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
+    #copyright {
+        font-family: Open Sans, sans-serif;
+        font-size: 12px;
+        color: var(--main-text);
     }
 
-    ul li {
-        list-style-type: none;
-        padding: 0 24px;
+    #footer-icon-container {
+        color: var(--main-text);
         font-size: 24px;
-        
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: center;
     }
 
-    #footer-icons i {
-        color: var(--main-text)
+    .footer-icon {
+        display: block;
+        margin: 0 24px;
     }
 }
 
