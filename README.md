@@ -3,10 +3,10 @@
 
 ## Table of contents
 [Table of contents](#table-of-contents)
-[Website Information](#website-information)
+* [Website Information](#website-information)
   - [Website purpose](#website-purpose)
   - [Website Sections:](#website-sections)
-[UX](#ux)
+* [UX](#ux)
   - [Strategy](#strategy)
     + [Business goals](#business-goals)
     + [First Time and Recurring User goals](#first-time-and-recurring-user-goals)
@@ -14,12 +14,12 @@
   - [Structure](#structure)
   - [Skeleton](#skeleton)
   - [Surface](#surface)
-[Features](#features)
-[Technologies Used](#technologies-used)
-[Testing](#testing)
-[Deployment](#deployment)
-[Credits](#credits)
-[Acknowledgments](#acknowledgments)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgments](#acknowledgments)
 
 ## Website Information
 
