@@ -5,9 +5,8 @@
     --secondary-text: #d2f4ea;
     --button-1: #13795b;
     --button-2: #20c997;
-    --decoration: #1aa179;
+    --decoration: #beebdd;
     --background: white;
-
     --fade: rgba(193, 223, 229, 0.75);
 }
 
@@ -22,8 +21,19 @@ hr {
     border-top: var(--decoration) solid 2px;
 }
 
-h2 {
+h1 {
     color: var(--head-text);
+    font-family: Oswald, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin: 6px;
+}
+
+h2 {
+    color: var(--main-text);
+    font-family: Oswald, sans-serif;
+    font-size: 26px;
 }
 
 h4 {
@@ -77,11 +87,6 @@ h4 {
     } 
 
     /* Hero Section */
-    #hero-section {
-        margin: 0 auto;
-        padding: 0px 0;
-    }
-
     #hero-img {
         width: 100%;
         height: 300px;
@@ -90,20 +95,10 @@ h4 {
 
     #hero-card {
         text-align: center;
-        max-width: fit-content;
-        margin: 0 auto;
-        padding: 24px 12px 12px 12px;
-    }
-
-    #hero-card h2 {
-        font-size: 36px;
-        font-family: Oswald, sans-serif;
-        font-weight: bolder;
-    }
-
-    #hero-card h3 {
-        font-family: Oswald, sans-serif;
-        font-size: 20px;
+        margin: 24px;
+        padding: 36px 24px;
+        border: solid 2px var(--decoration);
+        border-radius: 2px;
     }
 
     /* Info cards */
@@ -195,17 +190,17 @@ h4 {
 
     /* Newsletter Form */
     #newsletter-title {
-        background: var(--main-text);
+        background: var(--decoration);
         margin: 12px 24px;
         padding: 24px 12px;
         font-family: Oswald, sans-serif;
         font-size: 28px;
         text-align: center;
         text-transform: uppercase;
-        color: var(--secondary-text);
+        color: var(--head-text);
     }
 
-    #newsletter-container p {
+    #newsletter-title p {
         font-family: Oswald, sans-serif;
         font-size: 16px;
     }
