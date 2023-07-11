@@ -87,9 +87,9 @@ Interface with which user interacts, buttons
 - **Lighthouse**
 - **HTML and CSS Validation**
 - **Known bugs and fixes**
-    1. Struggled to get social media icons to show from [Font Awesome](https://fontawesome.com/v4/icons/). Re linked the stylesheet using the link from Code Institute, Love Running Project and the icons have appeared.
-    2. When creating responsive artist info cards on tickets.html I found that one side of the grid increased in height while the other side stayed the same. Fixed by specifying width in percentages rather than relying on auto.
-
+    * Struggled to get social media icons to show from [Font Awesome](https://fontawesome.com/v4/icons/). Re linked the stylesheet using the link from Code Institute, Love Running Project and the icons have appeared.
+    * When creating responsive artist info cards on tickets.html I found that one side of the grid increased in height while the other side stayed the same. Fixed by specifying width in percentages rather than relying on auto.
+    * I had used buttons with anchor elements in order to link to separate pages, this did not pass the HTML validator so I removed button elements and styled the remaining anchor elements to appear as buttons.
 ## Deployment
 ---
 
