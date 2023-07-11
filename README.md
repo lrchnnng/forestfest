@@ -78,6 +78,7 @@ Interface with which user interacts, buttons
 ## Features
 **Line up Images**
   * I had originally added a grayscale filter to artist info cards which would be removed when you hover over each individual card colourising the image. I have since removed it on the mobile size as the hover feature does not work with mobile devices. 
+  * I added an underline text decoration feature to anchor elements for mobile devices to show the artist name has a clickable link, this underline is removed on devices larger than mobile and the text colour will change when the user hovers over it.
 ---
 
 ## Technologies Used
