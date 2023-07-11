@@ -153,7 +153,7 @@ h4 {
         text-decoration: underline;
         color: var(--main-text);
     }
-    
+
     .line-up-card {
         background-color: var(--decoration);
         height: fit-content;
@@ -285,7 +285,7 @@ h4 {
     }
 
     #footer-icons i {
-        color: var(--cc3)
+        color: var(--main-text)
     }
 }
 
