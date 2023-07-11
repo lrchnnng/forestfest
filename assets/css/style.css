@@ -148,21 +148,12 @@ h4 {
         background-color: var(--main);
     }
 
-    /* Artist Info Cards */
-    #line-up-img {
-        width: 100%;
-    }
-    
-    #line-up-container {
-        width: 100%;
-    }
-
+    /* Line-up Cards */    
     .line-up-card {
         background-color: var(--decoration);
-        
         height: fit-content;
         margin: 24px;
-        padding: 2px 6px;
+        padding: 32px 6px;
         border-radius: 2%;
         display: flex;
         flex-direction: column;
