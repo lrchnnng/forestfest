@@ -7,11 +7,12 @@
   - [Table of contents](#table-of-contents)
   - [Website Information](#website-information)
     - [Website purpose](#website-purpose)
-    - [Website Sections:](#website-sections)
-    - [Business goals](#business-goals)
+  
     - [First Time and Recurring User goals](#first-time-and-recurring-user-goals)
   - [UX](#ux)
     - [Strategy](#strategy)
+      - [Website Sections:](#website-sections)
+      - [Business goals](#business-goals)
     - [Scope](#scope)
     - [Structure](#structure)
     - [Skeleton](#skeleton)
@@ -57,11 +58,11 @@ The first plane of UX is **strategy**. This builds the foundation on which the r
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter?
 
 ### Structure
-
+Flow of website, a site map, description of interaction
 
 ### Skeleton
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
-
+removes colour, Typography, imagery to create a basic view of website and layout
 
 ![Wireframes for index.html](assets/images/README-images/index-wireframes.jpg)
 
