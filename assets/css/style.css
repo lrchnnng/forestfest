@@ -156,11 +156,11 @@ h4 {
 
     .line-up-card {
         background-color: var(--decoration);
-        width: 80%;
+        
         height: fit-content;
-        margin: 24px auto;
-        padding: 24px 6px;
-        border-radius: 10%;
+        margin: 24px;
+        padding: 28px 6px;
+        border-radius: 2%;
         display: flex;
         flex-direction: column;
         /* Thanks to developer.mozilla.org for the greyscale filter */
@@ -170,23 +170,22 @@ h4 {
         width: 80%;
         margin: 0 auto;
         padding: 0 0 12px 0;
-        border-radius: 10%;
+        border-radius: 2%;
     }
 
     .title-1, .title-2  {
         font-family: Oswald, sans-serif;
-        font-weight: bold;
         text-align: center;
+        font-size: 20px;
     }
 
     .title-1 {
-        font-size: 20px;
-        color: var(--cc4)
+        font-weight: bold;
+        color: var(--main-text)
     }
 
     .title-2 {
-        font-size: 16px;
-        color: var(--cc3);
+        color: var(--secondary-text);
     }
 
     /* Video Section */
