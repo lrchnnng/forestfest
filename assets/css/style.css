@@ -148,7 +148,12 @@ h4 {
         background-color: var(--main);
     }
 
-    /* Line-up Cards */    
+    /* Line-up Cards */  
+    a {
+        text-decoration: underline;
+        color: var(--main-text);
+    }
+    
     .line-up-card {
         background-color: var(--decoration);
         height: fit-content;
