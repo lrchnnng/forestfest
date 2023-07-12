@@ -1,28 +1,27 @@
 :root {
     /* colours */
-    --head-text: #06281e;
-    --main-text: #0d503c;
-    --secondary-text: #d2f4ea;
-    --button-1: #13795b;
-    --button-2: #20c997;
-    --decoration: #7ed3b8;
+    --dark-text: #0A1F20;
+    --mid-text: #35817e;
+    --light-text: #C2D0C3;
+    --light-decoration:#99C5B8; 
+    --dark-decoration: #063D3C;
     --background: white;
-    --fade: rgba(193, 223, 229, 0.75);
+    --fade: rgba(153, 197, 184, 0.75);
 }
 
 body {
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding-top: 77px;
     background-color: var(--background);
-    color: var(--main-text);
+    color: var(--mid-text);
 }
 
 hr {
-    border-top: var(--decoration) solid 2px;
+    border-top: var(--dark-decoration) solid 2px;
 }
 
 h1 {
-    color: var(--head-text);
+    color: var(--dark-text);
     font-family: Oswald, sans-serif;
     font-weight: bolder;
     font-size: 40px;
@@ -31,15 +30,27 @@ h1 {
 }
 
 h2 {
-    color: var(--main-text);
+    color: var(--dark-text);
     font-family: Oswald, sans-serif;
     font-size: 26px;
+}
+
+h3 {
+    color: var(--dark-text);
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
 }
 
 h4 {
     text-align: center;
     font-family: Oswald, sans-serif;
     font-size: 24px;
+}
+
+p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: var(--mid-text);
 }
 
 /* Mobile */
@@ -51,39 +62,37 @@ h4 {
         border: none;
         padding: 12px;
         font-size: 16px;
-        font-family: Open Sans, sans-serif;
+        font-family: "Open Sans", sans-serif;
         text-decoration: none;
     }
 
     .main-button {
-        background-color: var(--button-1);
-        color: var(--secondary-text);           
+        background-color: var(--dark-decoration);
+        color: var(--light-text);      
     }
 
     .main-button:hover {
         background-color: var(--background);
-        border: solid 2px var(--button-1);
-        color: var(--button-1);
+        border: solid 2px var(--dark-decoration);
+        color: var(--dark-decoration);
     }
 
     .sec-button {
-        background-color: var(--button-2);
-        color: var(--secondary-text);
+        background-color: var(--light-decoration);
+        color: var(--mid-text);
     }
 
     .sec-button:hover {
         background-color: var(--background);
-        border: solid 2px var(--button-2);
-        color: var(--button-2
-        );
+        border: solid 2px var(--light-decoration);
+        color: var(--mid-text);
     }
-
 
     /* Nav Bar */
     .navbar-brand {
         font-family: Barrio;
         font-size: 16px;
-        color: var(--head-text);
+        color: var(--mid-text);
     } 
 
     /* Hero Section */
@@ -97,7 +106,7 @@ h4 {
         text-align: center;
         margin: 24px;
         padding: 36px 24px;
-        border: solid 2px var(--decoration);
+        border: solid 2px var(--light-decoration);
         border-radius: 2px;
     }
 
@@ -105,43 +114,10 @@ h4 {
     #info-cards {
         text-align: center;
         max-width: fit-content;
-        margin: 0 auto;
+        margin: 24px;
         padding: 24px 12px;
     }
 
-    #info-cards > div {
-        margin: 12px 0 24px 0;
-        padding: 24px;
-    } 
-
-    .info-card > span {
-        font-family: Oswald;
-        font-size: 20px;
-        color: var(--cc4);
-    }
-
-    .info-card > p {
-        font-family: Open Sans;
-        font-size: 16px;
-        text-align: center;
-        color: var(--fade);
-    }
-
-    .info-button {
-        width: fit-content;
-        height: fit-content;
-        font-size: 16px;
-        margin: 6px;
-        padding: 12px ;
-        border-radius: 8px;
-        background-color: var(--cc2);
-        text-decoration: none;
-        color: var(--cc4)
-    }
-
-    .info-button:hover {
-        background-color: var(--main);
-    }
 
     /* Line-up Cards */  
     a {
@@ -254,7 +230,7 @@ h4 {
     }
 
     #copyright {
-        font-family: Open Sans, sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-size: 12px;
         color: var(--main-text);
     }
