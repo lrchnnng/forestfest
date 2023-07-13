@@ -66,15 +66,17 @@ p {
     .button {
         border-radius: 8px;
         border: none;
-        padding: 12px;
+        padding: 12px 24px;
         font-size: 16px;
         font-family: "Open Sans", sans-serif;
         text-decoration: none;
+        width: fit-content;
+        margin: 0 auto;  
     }
 
     .main-button {
         background-color: var(--dark-decoration);
-        color: var(--light-text);      
+        color: var(--light-text); 
     }
 
     .main-button:hover {
@@ -86,8 +88,6 @@ p {
     .sec-button {
         background-color: var(--light-decoration);
         color: var(--dark-text);
-        width: fit-content;
-        margin: 0 auto;
     }
 
     .sec-button:hover {
@@ -106,16 +106,20 @@ p {
     /* Hero Section */
     #hero-img {
         width: 100%;
-        height: 300px;
+        max-height: 200px;
         object-fit: cover;
     }
 
     #hero-card {
         text-align: center;
         margin: 24px;
-        padding: 36px 24px;
+        padding: 12px;
         border: solid 2px var(--light-decoration);
         border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
 
     /* Info cards */
