@@ -1,12 +1,12 @@
 :root {
     /* colours */
-    --dark-text: #0A1F20;
-    --mid-text: #35817e;
+    --dark-text: #102c2e;
+    --mid-text: #1e5251;
     --light-text: #C2D0C3;
-    --light-decoration:#99C5B8; 
+    --light-decoration:#aed3c8; 
     --dark-decoration: #063D3C;
     --background: white;
-    --fade: rgba(153, 197, 184, 0.75);
+    --fade: rgba(153, 197, 184, 0.6);
 }
 
 body {
@@ -95,7 +95,7 @@ p {
     .navbar-brand {
         font-family: Barrio;
         font-size: 16px;
-        color: var(--mid-text);
+        color: var(--dark-text);
     } 
 
     /* Hero Section */
@@ -133,21 +133,18 @@ p {
     }
 
     .line-up-card {
-        background-color: var(--decoration);
-        height: fit-content;
+        background-color: var(--light-decoration);
         margin: 24px;
         padding: 32px 6px;
-        border-radius: 2%;
+        border-radius: 2;
         display: flex;
         flex-direction: column;
-        /* Thanks to developer.mozilla.org for the greyscale filter */
     }
 
     .artist-image {
         width: 80%;
         margin: 0 auto;
         padding: 0 0 12px 0;
-        border-radius: 2%;
     }
 
     .title-1, .title-2  {
@@ -157,12 +154,13 @@ p {
     }
 
     .title-1 {
-        font-weight: bold;
-        color: var(--main-text)
+        color: var(--dark-text);
+        font-weight: bolder;
     }
 
     .title-2 {
-        color: var(--main-text);
+        color: var(--mid-text);
+        font-weight: regular;
     }
 
     /* Video Section */
@@ -178,50 +176,45 @@ p {
 
     /* Newsletter Form */
     #newsletter-title {
-        background: var(--decoration);
+        background: var(--light-decoration);
         margin: 12px 24px;
         padding: 24px 12px;
-        font-family: Oswald, sans-serif;
-        font-size: 28px;
-        text-align: center;
         text-transform: uppercase;
-        color: var(--head-text);
     }
 
     #newsletter-title p {
         font-family: Oswald, sans-serif;
         font-size: 16px;
+        color: var(--mid-text);
     }
 
     form {
         margin: 24px;
         padding: 12px;
-        border: solid 2px var(--decoration);
-        border-radius: 2%;
-        color: var(--main-text);
+        border: solid 2px var(--light-decoration);
+        color: var(--mid-text);
     }
 
     input {
         margin: 6px;
         padding: 0 6px;
-        border: solid 2px var(--decoration);
+        border: solid 2px var(--light-decoration);
     }
 
     #submit {
-        background-color: var(--button-2);
+        background-color: var(--light-decoration);
         border-radius: 10px;
         border: none;
-        color: var(--secondary-text);
+        color: var(--mid-text);
         font-weight: bold;
         padding: 6px 12px;
     }
 
     /* Gallery Section */
-    #gallery-title h2 {
-        text-align: center;
-        padding-bottom: 12px;
-        font-size: 20px;
-        font-family: Oswald, sans-serif;
+    #gallery-title {
+        background-color: var(--light-decoration);
+        margin: 0 24px 12px 24px;
+        padding: 12px 6px;
     }
 
     #gallery img {
@@ -260,64 +253,28 @@ p {
 }
 
 /* Tablet */
-@media only screen and (min-width: 768px) {d
-    h4 {
-        font-size: 30px;
-    }
+@media only screen and (min-width: 768px) {
     
-    /* Nav Bar */
-    .navbar-brand {
-    font-family: Barrio;
-    font-size: 16px;
-    color: var(--cc1);
-    } 
-  
-    .navbar {
-        height: 50px;
-    }
-
-    .nav-item {
-        position: relative;
-        top: 10px;
-    }
-
     /* Hero Section */
     #hero-img {
-        height: 520px;
+        max-height: 520px;
     }
 
     #hero-card {
+        border: none;
+        border-radius: 0 2% 2% 0;
         background-color: var(--fade);
-        text-align: left;
-        max-width: fit-content;
-        max-height: fit-content;
-        margin: 0 auto;
-        padding: 24px;
         position: absolute;
+        margin: 0;
+        padding: 24px;
         left: 0px;
-        top: 200px;
-        border-radius: 0 16px 16px 0;
-    }
-    
-    #hero-card h2 {
-        color: var(--main)
-    }
-
-    #hero-card h3 {
-        font-size: 24px;
-        color: var(--cc1);
-    }
-
-    #hero-card p {
-        color: var(--cc1)
+        top: 120px;
     }
 
     /* Info Cards */
     #info-cards {
         display: flex;
         justify-items: center;
-        width: 100%;
-        gap: 12px;
     }
 
     .info-card span {
@@ -384,15 +341,10 @@ p {
         width:fit-content;
         padding: 24px;
         font-size: 42px;
-        
     }
 
     form {
         width: fit-content;
-    }
-    
-    #about-you {
-       width: 100%;
     }
 
     #submit {
