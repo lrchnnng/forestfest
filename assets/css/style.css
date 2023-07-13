@@ -33,14 +33,16 @@ h1 {
 h2 {
     color: var(--dark-text);
     font-family: Oswald, sans-serif;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h3 {
     color: var(--dark-text);
     font-family: Oswald, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: bold;
 }
@@ -137,10 +139,16 @@ p {
         color: var(--main-text);
     }
 
+    #line-up-header {
+        background-color: var(--light-decoration);
+        margin: 12px;
+        padding: 12px;
+    }
+
     .line-up-card {
         background-color: var(--light-decoration);
         margin: 24px;
-        padding: 32px 6px;
+        padding: 24px 6px;
         border-radius: 2;
         display: flex;
         flex-direction: column;
@@ -320,9 +328,22 @@ p {
         width: 80%;
     }
 
+    #line-up-header {
+        margin: 12px 12px;
+        padding: 12px;
+    }
+
     #line-up-container {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+        justify-content: center;
+    }
+
+    }
+    .line-up-card {
+        background-color: var(--light-decoration);
+        margin: 12px;
+        padding: 24px 6px;
     }
 
     /* Video Section */
