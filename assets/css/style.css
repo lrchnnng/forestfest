@@ -17,7 +17,7 @@ body {
 }
 
 hr {
-    border-top: var(--dark-decoration) solid 2px;
+    border-top: var(--dark-decoration) solid 4px;
 }
 
 h1 {
@@ -254,50 +254,60 @@ p {
 
 /* Tablet */
 @media only screen and (min-width: 768px) {
-    
+    /* General Styling */
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
     /* Hero Section */
     #hero-img {
-        max-height: 520px;
+        max-height: 400px;
     }
 
     #hero-card {
-        border: none;
-        border-radius: 0 2% 2% 0;
-        background-color: var(--fade);
-        position: absolute;
-        margin: 0;
+        margin: 24px;
         padding: 24px;
-        left: 0px;
-        top: 120px;
     }
 
     /* Info Cards */
     #info-cards {
         display: flex;
         justify-items: center;
+        margin: 12px;
+        padding: 12px 0;
     }
 
-    .info-card span {
+    .info-card h3 {
         font-size: 30px;
         padding: 6px 0px;
-        color: var(--cc4);
+        color: var(--dark-text);
     }
 
     .info-card {
-        width: 400px;
-        height: fit-content;
-        border: var(--fade) solid 2px;
-        border-radius: 10%;
-        padding: 24px 24px;
+        width: 33%;
+        border: var(--light-decoration) solid 2px;
+        padding: 12px;
         margin: 0 6px;
+        display: flex;
+        flex-direction: column;
     }
 
     .info-card > p {
-        color: var(--fade);
-    }
-
-    .info-button a {
-        color: var(--cc4)
+        color: var(--mid-text);
+        font-size: 18px;
     }
 
     /* Line Up Info Cards */
