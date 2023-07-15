@@ -11,7 +11,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    padding-top: 77px;
+    padding-top: 50px;
     color: var(--mid-text);
 }
 
@@ -19,48 +19,43 @@ hr {
     border-top: var(--dark-decoration) solid 4px;
 }
 
-h1 {
+h1, h2, h3, h4, p {
     color: var(--dark-text);
-    font-family: Oswald, sans-serif;
-    font-weight: bolder;
-    font-size: 40px;
     text-align: center;
-    margin: 6px;
-    text-transform: uppercase;
 }
 
-h2 {
-    color: var(--dark-text);
+h1, h2, h3, h4 {
     font-family: Oswald, sans-serif;
-    font-size: 28px;
-    text-align: center;
+}
+
+h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
-}
-
-h3 {
-    color: var(--dark-text);
-    font-family: Oswald, sans-serif;
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
-}
-
-h4 {
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    font-size: 16px;  
-}
-
-p {
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    color: var(--dark-text);
 }
 
 /* Mobile */
 @media screen and (min-width:260px) {
+    /* General styling */
+    h1 {
+        font-size: 32px;
+    }
     
+    h2 {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    h4 {
+        font-size: 18px;  
+    }
+    
+    p {
+        font-size: 16px;
+        }
+
     /* Button Styling */
     .button {
         border-radius: 8px;
@@ -104,24 +99,24 @@ p {
 
     /* Hero Section */
     #hero-section {
-            background-size: contain;
-            background: url(../images/hero-img.jpg) no-repeat center center;
-            background-size: 100%;
-            text-align: center;
-            padding: 24px;
+        background-size: auto;
+        background: url(../images/hero-img.jpg) no-repeat center center;
+        background-size: 120%;
+        text-align: center;
+        padding: 12px;
     }
 
     #hero-card {
         text-align: center;
         background-color: var(--fade);
-        margin: 24px;
-        padding: 12px;
+        margin: 12px;
+        padding: 6px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
     }
-    
+
     /* Info cards */
     #info-cards {
         text-align: center;
@@ -272,17 +267,20 @@ p {
 /* Tablet */
 @media only screen and (min-width: 768px) {
     /* General Styling */
-
     h1 {
         font-size: 60px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     h3 {
-        font-size: 28px;
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 26px;
     }
 
     p {
@@ -290,8 +288,8 @@ p {
     }
 
     /* Hero Section */
-    #hero-img {
-        max-height: 400px;
+    #hero-section {
+        padding: 12px 36px;
     }
 
     #hero-card {
@@ -391,11 +389,38 @@ p {
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
-    
+    /* General Styling */
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 26px;
+    }
+
+    /* Buttons */
+    .button {
+        font-size: 26px;
+    }
+
     /* Hero Section */
-    #hero-img {
-        height: 810px;
-        width: 100%;
+    #hero-section {
+        height: 680px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
     }
 
     #hero-card {
@@ -404,8 +429,6 @@ p {
         width:fit-content;
         margin: 0 auto;
         padding: 36px;
-        position: absolute;
-        top: 130px;
     }
 
     /* Line Up Info Cards */
