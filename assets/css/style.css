@@ -110,7 +110,7 @@ h1, h2, h3 {
         text-align: center;
         background-color: var(--fade);
         margin: 12px;
-        padding: 6px;
+        padding: 12px 6px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -124,7 +124,7 @@ h1, h2, h3 {
     }
 
     .info-card {
-        margin: 24px;
+        margin: 12px 6px;
         padding: 24px 12px;
         border: solid 2px var(--light-decoration);
         border-radius: 2px;
@@ -138,8 +138,15 @@ h1, h2, h3 {
         color: var(--main-text);
     }
 
+    #line-up-container {
+        background-size: cover;
+        background: url(../images/hero-img.jpg) no-repeat center center;
+        background-size: 100%;
+        padding: 24px;
+    }
+
     #line-up-header {
-        background-color: var(--light-decoration);
+        background-color: var(--fade);
         margin: 12px;
         padding: 12px;
     }
@@ -187,8 +194,15 @@ h1, h2, h3 {
     }
 
     /* Newsletter Form */
+    #news-container {
+        background-size: cover;
+        background: url(../images/hero-img.jpg) no-repeat center center;
+        background-size: 100%;
+        padding: 24px 12px;
+    }
+
     #newsletter-title {
-        background: var(--light-decoration);
+        background: var(--fade);
         margin: 12px 24px;
         padding: 24px 12px;
         text-transform: uppercase;
@@ -223,9 +237,16 @@ h1, h2, h3 {
     }
 
     /* Gallery Section */
+    #gallery-container {
+        background-size: cover;
+        background: url(../images/hero-img.jpg) no-repeat center center;
+        background-size: 100%;
+        padding: 12px;
+    }
+    
     #gallery-title {
-        background-color: var(--light-decoration);
-        margin: 0 24px 12px 24px;
+        background-color: var(--fade);
+        margin: 24px;
         padding: 12px 6px;
     }
 
