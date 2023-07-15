@@ -6,13 +6,12 @@
     --light-decoration:#aed3c8; 
     --dark-decoration: #063D3C;
     --background: white;
-    --fade: rgba(153, 197, 184, 0.6);
+    --fade: rgba(174, 211, 200, 0.474);
 }
 
 body {
     font-family: "Open Sans", sans-serif;
     padding-top: 77px;
-    background-color: var(--background);
     color: var(--mid-text);
 }
 
@@ -56,7 +55,7 @@ h4 {
 p {
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    color: var(--mid-text);
+    color: var(--dark-text);
 }
 
 /* Mobile */
@@ -104,24 +103,25 @@ p {
     } 
 
     /* Hero Section */
-    #hero-img {
-        width: 100%;
-        max-height: 200px;
-        object-fit: cover;
+    #hero-section {
+            background-size: contain;
+            background: url(../images/hero-img.jpg) no-repeat center center;
+            background-size: 100%;
+            text-align: center;
+            padding: 24px;
     }
 
     #hero-card {
         text-align: center;
+        background-color: var(--fade);
         margin: 24px;
         padding: 12px;
-        border: solid 2px var(--light-decoration);
-        border-radius: 2px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-
+        align-content: center;
     }
-
+    
     /* Info cards */
     #info-cards {
         text-align: center;
