@@ -191,6 +191,7 @@ h1, h2, h3 {
 
     iframe {
         margin: 6px 24px;
+        height: 200px;
     }
 
     /* Newsletter Form */
@@ -470,7 +471,7 @@ h1, h2, h3 {
     /* Video Section */
     iframe {
         width: 80%;
-        height: 400px;
+        height: 500px;
     }
 
     /* Gallery Section */

@@ -34,15 +34,16 @@
 ---
 
 ## UX 
+Whilst designing and creating this website I have taken into account the five planes of UX design, strategy, scope, structure, skeleton and surface.
 
 ### Strategy
-The first plane of UX is **strategy**. This builds the foundation on which the rest of the planes are built, focusing on the main goals of the website.
+I began by creating the foundation for my website, this includes looking at the goals for both the business and for first time and recurring user goals, specific features to include and types of technologies. 
 
-#### Business goals
-1. To sell tickets to the user
-2. To show the user images of previous years
-3. To promote featured artists for the event
-4. Encourage the user to sign up to the newsletter
+Business goals: 
+* To sell tickets to the user
+* To show the user images of previous years
+* To promote featured artists for the event
+* Encourage the user to sign up to the newsletter
 
 #### First Time and Recurring User goals
 1. Easily find the price of the tickets
