@@ -8,8 +8,6 @@
   - [Website Sections:](#website-sections)
 * [UX](#ux)
   - [Strategy](#strategy)
-    + [Business goals](#business-goals)
-    + [First Time and Recurring User goals](#first-time-and-recurring-user-goals)
   - [Scope](#scope)
   - [Structure](#structure)
   - [Skeleton](#skeleton)
@@ -22,8 +20,18 @@
 * [Acknowledgments](#acknowledgments)
 
 ## Website Information
+Business goals: 
+* To sell tickets to the user
+* To show the user images of previous years
+* To promote featured artists for the event
+* Encourage the user to sign up to the newsletter
 
-### Website purpose
+First Time and Recurring User goals: 
+* Easily find the price of the tickets
+* Clearly see the dates of the event
+* View the line up of the event
+* Sign up to the newsletter
+* Navigate to social media pages for more information and images
 
 ### Website Sections:
 1. Home/Landing Page
@@ -37,20 +45,15 @@
 Whilst designing and creating this website I have taken into account the five planes of UX design, strategy, scope, structure, skeleton and surface.
 
 ### Strategy
-I began by creating the foundation for my website, this includes looking at the goals for both the business and for first time and recurring user goals, specific features to include and types of technologies. 
+I began by creating the foundation for my website, I defined my target user and the types of features and technologies. 
 
-Business goals: 
-* To sell tickets to the user
-* To show the user images of previous years
-* To promote featured artists for the event
-* Encourage the user to sign up to the newsletter
+Target users for Forest Fest:
+* Ages 25-40
+* Festival and nature lovers
+* People who are intersted in music and comedy
+* People looking for information about Forest Fest
 
-#### First Time and Recurring User goals
-1. Easily find the price of the tickets
-2. Clearly see the dates of the event
-3. View the line up of the event
-4. Sign up to the newsletter
-5. Navigate to social media pages for more information and images
+
 
 ### Scope
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter?
