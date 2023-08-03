@@ -19,6 +19,8 @@
 * [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
 
+![Website Mockup](assets/images/README-images/forest-fest-mockup.jpg)
+
 ## Website Information
 Business goals: 
 * To sell tickets to the user
@@ -52,7 +54,6 @@ Target users for Forest Fest:
 * Festival and nature lovers
 * People who are intersted in music and comedy
 * People looking for information about Forest Fest
-
 
 
 ### Scope
