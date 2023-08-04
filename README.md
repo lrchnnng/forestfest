@@ -55,6 +55,8 @@ First time and returning user goals:
 * Sign up to the newsletter
 * Navigate to social media pages for more information and images
 
+Another goal for my website is to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
+
 ### Scope
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter?
 
