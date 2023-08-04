@@ -109,7 +109,7 @@ I created a limited colour palette taking inspiration from the hero image and na
 ![Colour palette](assets/images/README-images/colour-palette.jpg)
 
 #### Photography
-I used a combination of AI images using [Bing Image Creator](https://www.bing.com/images/create?FORM=GENILP)
+I used a combination of AI images using [Bing Image Creator](https://www.bing.com/images/create?FORM=GENILP) and images from other forest related festivals from google images.
 
 
 ---
