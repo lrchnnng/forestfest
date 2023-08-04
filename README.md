@@ -104,11 +104,11 @@ removes colour, Typography, imagery to create a basic view of website and layout
 I opted to use 3 fonts from [Google Fonts](https://fonts.google.com/), a Logo font, a header font and a main text font.
 ![google fonts](assets/images/README-images/google-fonts.jpg)
 
-####Colours
+#### Colours
 I created a limited colour palette taking inspiration from the hero image and nature. I also opted to use colour variables within my CSS code so as to make the colours more consistent throughout.
 ![Colour palette](assets/images/README-images/colour-palette.jpg)
 
-####Photography
+#### Photography
 I used a combination of AI images using [Bing Image Creator](https://www.bing.com/images/create?FORM=GENILP)
 
 
