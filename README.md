@@ -120,16 +120,34 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
 ---
 
 ## Technologies Used
-- [Lighthouse Accessibility Tools](https://developer.chrome.com/docs/lighthouse/overview/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  * Used to create the basic structure and meaning of the webpage
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  * Used to style the content within the webpage
+- [Bootstrap](https://getbootstrap.com/)
+  * Bootstrap was used to create a fully responsive navbar
+- [JavaScript](https://www.javascript.com/)
+  * Used with Bootstrap in order to create a responsive drop down nav bar on mobile and tablet devices
+- [Google Fonts](https://fonts.google.com/)
+  * Used to add in specific fonts to the webpage
 - [W3C HTML Validator](https://validator.w3.org/)
+  * Used to make sure there are no errors within my HTML code and to make sure it adheres to standard coding practices
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+  * Used to make sure there are no errors within my CSS code and to make sure it adheres to standard coding practices
+- [Lighthouse Accessibility Tools](https://developer.chrome.com/docs/lighthouse/overview/)
+  * Used to make sure that the webpage adheres to industry standard accessibility standards
+- [VS Code](https://code.visualstudio.com/)
+  * A code editor used to write, store and push code to Git and Github
+- [Github](https://github.com/)
+  * Used to store the code for my project once pushed from VS Code
+- [Git](https://git-scm.com/)
+  * Used for version control when connected to both Github and VS Code
 ---
 
 ## Testing
----
-- **User Stories**
 - **Lighthouse**
 - **HTML and CSS Validation**
+  * The most errors I encountered were using <section> elements without a heading element instead of <div>, I fixed this across the webpage and encountered no further errors.
 - **Known bugs and fixes**
   * Struggled to get social media icons to show from [Font Awesome](https://fontawesome.com/v4/icons/). Re linked the stylesheet using the link from Code Institute, Love Running Project and the icons have appeared.
   * When creating responsive artist info cards on tickets.html I found that one side of the grid increased in height while the other side stayed the same. Fixed by specifying width in percentages rather than relying on auto.
