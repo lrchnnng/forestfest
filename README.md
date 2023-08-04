@@ -82,7 +82,9 @@ Tickets Page:
 * A sign up form for the presale tickets and newsletter inclding the option to select specific ticket types
 
 ### Structure
-Flow of website, a site map, description of interaction
+I created a userflow diagram to show how the user will interact with each page on the site.
+
+![Userflow for Forest Fest](assets/images/README-images/user-flow.png)
 
 ### Skeleton
 The **skeleton** plane of UX design is a more visual representation of the flow in which a user might use the website. Using wireframes to show a basic design layout 
