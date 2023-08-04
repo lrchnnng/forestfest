@@ -60,7 +60,8 @@ Another goal for my website was to create an intuitive experience making the pag
 ### Scope
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter? The important part of this phase is looking at what specific features I will include in order to meet both user and business goals.
 
-*Features*
+#### Features
+
 Homepage:
 * An easy to use navigation bar directing to other pages on the website
 * A hero section with a brief section of information about Forest Fest and a direct link to sign up for the newsletter
