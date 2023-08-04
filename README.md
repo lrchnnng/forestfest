@@ -28,13 +28,6 @@ Business goals:
 * To promote featured artists for the event
 * Encourage the user to sign up to the newsletter
 
-First Time and Recurring User goals: 
-* Easily find the price of the tickets
-* Clearly see the dates of the event
-* View the line up of the event
-* Sign up to the newsletter
-* Navigate to social media pages for more information and images
-
 ### Website Sections:
 1. Home/Landing Page
 2. Line Up - A short introduction to some featured artists
@@ -55,6 +48,12 @@ Target users for Forest Fest:
 * People who are intersted in music and comedy
 * People looking for information about Forest Fest
 
+First time and returning user goals: 
+* Easily find the price of the tickets
+* Clearly see the dates of the event
+* View the line up of the event
+* Sign up to the newsletter
+* Navigate to social media pages for more information and images
 
 ### Scope
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter?
