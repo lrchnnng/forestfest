@@ -55,10 +55,30 @@ First time and returning user goals:
 * Sign up to the newsletter
 * Navigate to social media pages for more information and images
 
-Another goal for my website is to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
+Another goal for my website was to create an intuitive experience making the page easy to navigate without the user having to think too much about their next move. With the understanding that my user demographic is most likely viewing the website across a variety of devices, I have made sure that the site is fully responsive across screen sizes in order to optimize user experience.
 
 ### Scope
-The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter?
+The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter? The important part of this phase is looking at what specific features I will include in order to meet both user and business goals.
+
+*Features*
+Homepage:
+* An easy to use navigation bar directing to other pages on the website
+* A hero section with a brief section of information about Forest Fest and a direct link to sign up for the newsletter
+* Information cards on the homepage with a brief description and a direct link to their respective pages
+* A video section including footage from the festival from a previous year
+* A footer section with copyright information and external links to Forest Fest social media accounts
+
+Line Up Page:
+* A header to identify the current page
+* A selection of artist information card including a photo, the artist name (including an external link to the artists personal webpage) and the name of the stage they will be performing on
+
+Gallery Page:
+* A header to identify the current page
+* A gallery of images from previous years at Forest Festival
+
+Tickets Page:
+* A header to identify the current page
+* A sign up form for the presale tickets and newsletter inclding the option to select specific ticket types
 
 ### Structure
 Flow of website, a site map, description of interaction
