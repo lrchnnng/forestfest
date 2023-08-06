@@ -56,6 +56,12 @@ h1, h2, h3 {
         font-size: 16px;
         }
 
+    .header-box {
+        background-size: cover;
+        background: url(../images/hero-img.jpg) no-repeat center center;
+        background-size: 100%;
+    }
+
     /* Button Styling */
     .button {
         border-radius: 8px;
@@ -137,17 +143,10 @@ h1, h2, h3 {
         text-decoration: underline;
         color: var(--main-text);
     }
-
-    #line-up-container {
-        background-size: cover;
-        background: url(../images/hero-img.jpg) no-repeat center center;
-        background-size: 100%;
-        padding: 24px;
-    }
-
+    
     #line-up-header {
         background-color: var(--fade);
-        margin: 12px;
+        margin: 0 auto;
         padding: 12px;
     }
 
@@ -155,7 +154,7 @@ h1, h2, h3 {
         background-color: var(--light-decoration);
         margin: 24px;
         padding: 24px 6px;
-        border-radius: 2;
+        border-radius: 2px;
         display: flex;
         flex-direction: column;
         justify-items: center;
@@ -179,7 +178,6 @@ h1, h2, h3 {
 
     .title-2 {
         color: var(--mid-text);
-        font-weight: regular;
     }
 
     /* Video Section */
@@ -348,19 +346,15 @@ h1, h2, h3 {
     }
 
     /* Line Up Info Cards */
-    #line-up-img {
-        width: 80%;
-    }
-
     #line-up-header {
-        margin: 12px 12px;
+        margin: 24px;
         padding: 12px;
     }
 
     #line-up-container {
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        justify-content: center;
+        padding: 12px;
     }
 
     .line-up-card {
@@ -461,7 +455,7 @@ h1, h2, h3 {
     }
 
     .line-up-card:hover {
-        .artist-image {filter: grayscale(0%);}  
+        .artist-image {filter:grayscale(0%)}
     }
 
     .title-1, .title-2  {
