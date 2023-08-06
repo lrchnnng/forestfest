@@ -149,7 +149,9 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
 ![Lighthouse testing](assets/images/README-images/lighthouse-testing.jpg)
 - **HTML and CSS Validation**
   * HTML
-    ![HTML Validation](assets/images/README-images/html-validation.png)
+    ![HTML Validation](assets/images/README-images/validation.png)
+  * CSS
+    ![CSS Validation](assets/images/README-images/validation.png)
 - **Known bugs and fixes**
   * Struggled to get social media icons to show from [Font Awesome](https://fontawesome.com/v4/icons/). Re linked the stylesheet using the link from Code Institute, Love Running Project and the icons have appeared.
   * When creating responsive artist info cards on tickets.html I found that one side of the grid increased in height while the other side stayed the same. Fixed by specifying width in percentages rather than relying on auto.
