@@ -450,13 +450,13 @@ h1, h2, h3 {
         grid-template-columns: 25% 25% 25% 25%;
     }
 
-    .artist-image {
+    /* .artist-image {
         filter: grayscale(75%);
     }
 
     .line-up-card:hover {
         .artist-image {filter:grayscale(0%)}
-    }
+    } */
 
     .title-1, .title-2  {
         font-size: 28px;
