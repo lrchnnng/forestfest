@@ -41,23 +41,23 @@ h1, h2, h3 {
 @media screen and (min-width:260px) {
     /* General styling */
     h1 {
-        font-size: 28px;
+        font-size: 36px;
     }
     
     h2 {
-        font-size: 22px;
-    }
-    
-    h3 {
         font-size: 20px;
     }
     
+    h3 {
+        font-size: 18px;
+    }
+    
     h4 {
-        font-size: 18px;  
+        font-size: 16px;  
     }
     
     p {
-        font-size: 16px;
+        font-size: 14px;
         }
 
     .header-box {
@@ -292,7 +292,7 @@ h1, h2, h3 {
 @media only screen and (min-width: 768px) {
     /* General Styling */
     h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     h2 {
@@ -408,7 +408,7 @@ h1, h2, h3 {
 @media only screen and (min-width: 1024px) {
     /* General Styling */
     h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     h2 {
