@@ -351,8 +351,7 @@ h1, h2, h3 {
 
     /* Line Up Info Cards */
     #line-up-header {
-        margin: 24px;
-        padding: 12px;
+        margin: 0 100px;
     }
 
     #line-up-container {
