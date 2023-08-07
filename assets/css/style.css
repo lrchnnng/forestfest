@@ -433,7 +433,7 @@ h1, h2, h3 {
 
     /* Hero Section */
     #hero-section {
-        height: 680px;
+        height: 500px;
         display: flex;
         justify-items: center;
         align-items: center;

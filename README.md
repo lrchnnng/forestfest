@@ -158,7 +158,6 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
   * I had used button elements with inherited anchor elements in order to link to separate pages, this did not pass the [HTML validator](https://validator.w3.org/nu/) so I removed button elements and styled the remaining anchor elements to appear as buttons.
   * The most errors I encountered were using 'section' elements without a heading element instead of 'div', I fixed this across the webpage and encountered no further errors.
 
-
 ## Deployment
 
 ---
