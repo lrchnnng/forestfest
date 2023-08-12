@@ -6,7 +6,7 @@
     --light-decoration:#aed3c8; 
     --dark-decoration: #063D3C;
     --background: white;
-    --fade: rgba(174, 211, 200, 0.474);
+    --fade: rgba(174, 211, 200, 0.6);
 }
 
 body {
@@ -45,7 +45,7 @@ h1, h2, h3 {
     }
     
     h2 {
-        font-size: 20px;
+        font-size: 26px;
     }
     
     h3 {
@@ -59,12 +59,6 @@ h1, h2, h3 {
     p {
         font-size: 14px;
         }
-
-    .header-box {
-        background-size: cover;
-        background: url(../images/hero-img.jpg) no-repeat center center;
-        background-size: 100%;
-    }
 
     /* Button Styling */
     .button {
@@ -98,6 +92,13 @@ h1, h2, h3 {
         background-color: var(--background);
         border: solid 2px var(--light-decoration);
         color: var(--dark-text);
+    }
+
+    .header {
+        font-family: Barrio, sans-serif;
+        background-color: var(--fade);
+        margin: 0 auto;
+        padding: 24px 12px;
     }
 
     /* Nav Bar */
@@ -140,6 +141,7 @@ h1, h2, h3 {
         border-radius: 2px;
         display: flex;
         flex-direction: column;
+        border: solid var(--dark-decoration) 2px;
     }
 
     /* Line-up Cards */  
@@ -148,10 +150,8 @@ h1, h2, h3 {
         color: var(--main-text);
     }
     
-    #line-up-header {
-        background-color: var(--fade);
-        margin: 0 auto;
-        padding: 12px;
+    #line-up {
+        background-color: var(--dark-decoration);    
     }
 
     .line-up-card {
@@ -196,11 +196,9 @@ h1, h2, h3 {
     }
 
     /* Newsletter Form */
-    #news-container {
+    #newsletter {
         background-size: cover;
         background: url(../images/hero-img.jpg) no-repeat center center;
-        background-size: 100%;
-        padding: 24px 12px;
     }
 
     #newsletter-title {
@@ -221,6 +219,7 @@ h1, h2, h3 {
         padding: 12px;
         border: solid 2px var(--light-decoration);
         color: var(--mid-text);
+        background-color: var(--fade);
     }
 
     input {
@@ -295,7 +294,7 @@ h1, h2, h3 {
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 36px;
     }
 
     h3 {
@@ -324,14 +323,18 @@ h1, h2, h3 {
     #info-cards {
         display: flex;
         justify-items: center;
-        margin: 12px;
-        padding: 12px 24px;
+        padding: 12px;
     }
 
     .info-card h3 {
         font-size: 30px;
         padding: 6px 0px;
         color: var(--dark-text);
+    }
+
+    .info-card > p {
+        color: var(--mid-text);
+        font-size: 18px;
     }
 
     .info-card {
@@ -341,17 +344,9 @@ h1, h2, h3 {
         margin: 0 12px;
         display: flex;
         flex-direction: column;
+        border: solid var(--dark-decoration) 2px;
     }
-
-    .info-card > p {
-        color: var(--mid-text);
-        font-size: 18px;
-    }
-
     /* Line Up Info Cards */
-    #line-up-header {
-        margin: 0 100px;
-    }
 
     #line-up-container {
         display: grid;
@@ -414,7 +409,7 @@ h1, h2, h3 {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 40px;
     }
 
     h3 {
@@ -459,8 +454,8 @@ h1, h2, h3 {
     /* Hero Section */
     #info-cards {
         display: flex;
-        padding: 24px;
-        margin: 0 36px;
+        padding: 12px;
+        margin: 0;
     }
 
     .info-card {
@@ -507,8 +502,6 @@ h1, h2, h3 {
     .title-1, .title-2  {
         font-size: 28px;
     }
-
-    
 
     /* Gallery Section */
     #gallery {
