@@ -12,7 +12,7 @@
   - [Structure](#structure)
   - [Skeleton](#skeleton)
   - [Surface](#surface)
-* [Features](#features)
+  - [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -110,10 +110,7 @@ I created a limited colour palette taking inspiration from the hero image and na
 #### Photography
 I used a combination of AI images using [Bing Image Creator](https://www.bing.com/images/create?FORM=GENILP) and images from other forest related festivals from google images.
 
-
----
-
-## Features
+### Features
 **Line up Images**
   * I had originally added a grayscale filter to artist info cards which would be removed when you hover over each individual card colourising the image. I have since removed it on the mobile  and tablet size as the hover feature does not work with mobile and tablet devices. 
 ---
