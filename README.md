@@ -146,7 +146,8 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
 
 ## Testing
 - **Lighthouse**
-![Lighthouse testing](assets/images/README-images/lighthouse-testing.jpg)
+![Lighthouse testing](assets/images/README-images/lighthouse-test.png)
+  * I had originally placed a video on my index page which brought my performance score down to around 36%. Unfortunately, as I do not yet have the knowledge to remove all the unused javascript causing this low performance score I opted to switch out the video for an interactive map from Google showing the location of the festival.
 - **HTML and CSS Validation**
   * HTML
     ![HTML Validation](assets/images/README-images/validation.png)
