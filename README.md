@@ -162,7 +162,7 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
   ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
   ![a screenshot of the festival map on desktop device](assets/images/README-images/user-story-map-d.png)
 2. Clearly see the dates of the event
-  ![a screenshot of the hero section on desktop device](assets/images/README-images/user-story-dates-l.png)
+  ![a screenshot of the hero section on desktop device](assets/images/README-images/user-story-dates-d.png)
 3. View the line up of the event
   ![a screenshot of the lineup on tablet device](assets/images/README-images/user-story-lineup-t.png)
 4. Sign up to the newsletter
