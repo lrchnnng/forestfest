@@ -148,6 +148,7 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
 - **Lighthouse**
 ![Lighthouse testing](assets/images/README-images/lighthouse-test.png)
   * I had originally placed a video on my index page which brought my performance score down to around 36%. Unfortunately, as I do not yet have the knowledge to remove all the unused javascript causing this low performance score I opted to switch out the video for an interactive map from Google showing the location of the festival.
+  * I had a fairly low score for performance on both line up page and gallery page which I fixed by reducing the image sizes.
 - **HTML and CSS Validation**
   * HTML
     ![HTML Validation](assets/images/README-images/validation.png)
