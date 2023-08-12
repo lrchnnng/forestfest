@@ -48,7 +48,7 @@ Target users for Forest Fest:
 * People looking for information about Forest Fest
 
 First time and returning user goals: 
-* Easily find the price of the tickets
+* Easily find the location of the festival
 * Clearly see the dates of the event
 * View the line up of the event
 * Sign up to the newsletter
@@ -60,7 +60,6 @@ Another goal for my website was to create an intuitive experience making the pag
 The second plane of UX looks at the **scope** of the website. What does the user have to do in order to reach the goals for the website. Do they need to search? Do they need to sign up to a newsletter? The important part of this phase is looking at what specific features I will include in order to meet both user and business goals.
 
 #### Features
-
 Homepage:
 * An easy to use navigation bar directing to other pages on the website
 * A hero section with a brief section of information about Forest Fest and a direct link to sign up for the newsletter
@@ -157,6 +156,22 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
   * When creating responsive artist info cards on tickets.html I found that one side of the grid increased in height while the other side stayed the same. Fixed by specifying width in percentages rather than relying on auto.
   * I had used button elements with inherited anchor elements in order to link to separate pages, this did not pass the [HTML validator](https://validator.w3.org/nu/) so I removed button elements and styled the remaining anchor elements to appear as buttons.
   * The most errors I encountered were using 'section' elements without a heading element instead of 'div', I fixed this across the webpage and encountered no further errors.
+
+## User Story
+1. Easily find the location of the festival
+  ![a screenshot of the festival map on mobile device](assets/images/README-images/user-story-map-m.png)
+  ![a screenshot of the festival map on desktop device](assets/images/README-images/user-story-map-d.png)
+2. Clearly see the dates of the event
+  ![a screenshot of the hero section on mobile device](assets/images/README-images/user-story-dates-m.png)
+  ![a screenshot of the hero section on desktop device](assets/images/README-images/user-story-dates-l.png)
+3. View the line up of the event
+  ![a screenshot of the lineup on tablet device](assets/images/README-images/user-story-lineup-t.png)
+  ![a screenshot of the lineup on desktop device](assets/images/README-images/user-story-lineup-d.png)
+4. Sign up to the newsletter
+  ![a screenshot of the tickets page on desktop device](assets/images/README-images/user-story-newsletter-d.png)
+5. Navigate to social media pages for more information and images
+  ![a screenshot of the footer section on mobile](assets/images/README-images/user-story-social-m.png)
+
 
 ## Deployment
 ### GitHub pages deployment

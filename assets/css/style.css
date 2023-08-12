@@ -126,6 +126,7 @@ h1, h2, h3 {
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        border-radius: 20px;
     }
 
     /* Info cards */
