@@ -135,6 +135,8 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
   * Used to make sure there are no errors within my CSS code and to make sure it adheres to standard coding practices
 - [Lighthouse Accessibility Tools](https://developer.chrome.com/docs/lighthouse/overview/)
   * Used to make sure that the webpage adheres to industry standard accessibility standards
+- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) 
+  * For the grayscale image filter
 - [VS Code](https://code.visualstudio.com/)
   * A code editor used to write, store and push code to Git and Github
 - [Github](https://github.com/)
@@ -175,7 +177,7 @@ Once this is complete you should be able to view the webpage online, this is upd
 - [Google Fonts](https://fonts.google.com/)
 - [Bing Image Creator](https://www.bing.com/images/create?FORM=GENILP)
 - [W3Schools](https://www.w3schools.com/)
-- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) for the grayscale image filter
+- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 - [Google Images](https://images.google.co.uk/)
 - [Bootstrap](https://getbootstrap.com/)
