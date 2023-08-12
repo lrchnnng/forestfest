@@ -158,7 +158,7 @@ h1, h2, h3 {
         background-color: var(--light-decoration);
         margin: 24px;
         padding: 24px 6px;
-        border-radius: 2px;
+        border-radius: 40px 10px 40px 10px;
         display: flex;
         flex-direction: column;
         justify-items: center;
@@ -197,8 +197,8 @@ h1, h2, h3 {
 
     /* Newsletter Form */
     #newsletter {
-        background-size: cover;
-        background: url(../images/hero-img.jpg) no-repeat center center;
+        background-color: var(--dark-decoration);
+        padding: 12px;
     }
 
     #newsletter-title {
@@ -217,8 +217,7 @@ h1, h2, h3 {
     form {
         margin: 24px;
         padding: 12px;
-        border: solid 2px var(--light-decoration);
-        color: var(--mid-text);
+        color: var(--dark-text);
         background-color: var(--fade);
     }
 
@@ -226,6 +225,7 @@ h1, h2, h3 {
         margin: 6px;
         padding: 0 6px;
         border: solid 2px var(--light-decoration);
+        color: var(--dark-text);
     }
 
     #submit {
@@ -322,7 +322,7 @@ h1, h2, h3 {
     /* Info Cards */
     #info-cards {
         display: flex;
-        justify-items: center;
+        justify-items: center
         padding: 12px;
     }
 
