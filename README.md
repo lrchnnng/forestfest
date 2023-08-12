@@ -162,13 +162,13 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
   * The most errors I encountered were using 'section' elements without a heading element instead of 'div', I fixed this across the webpage and encountered no further errors.
 
 ## Deployment
-GitHub pages deployment
+### GitHub pages deployment
 *Log in to GitHub*
-In your Repository section, select the project repository that you want to deploy
-In the menu located at the top of this section, click 'Settings'
-Select 'Pages' on the left-hand menu - this is around halfway down
-In the source section, select branch 'Master' and save
-The page is then given a site URL which you will see above the source section
+- In your Repository section, select the project repository that you want to deploy
+- In the menu located at the top of this section, click 'Settings'
+- Select 'Pages' on the left-hand menu - this is around halfway down
+- In the source section, select branch 'Master' and save
+- The page is then given a site URL which you will see above the source section
 
 Once this is complete you should be able to view the webpage online, this is updated every so often which allows the user to see any changes in almost real time.
 ---
