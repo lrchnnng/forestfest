@@ -170,7 +170,7 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
 - In the source section, select branch 'Master' and save
 - The page is then given a site URL which you will see above the source section
 
-Once this is complete you should be able to view the webpage online, this is updated every so often which allows the user to see any changes in almost real time.
+*Once this is complete you should be able to view the webpage online, this is updated every so often which allows the user to see any changes in almost real time.*
 ---
 
 ## Credits and Acknowledgments
