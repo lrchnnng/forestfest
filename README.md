@@ -146,7 +146,7 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
 
 ## Testing
 - **Lighthouse**
-![Lighthouse testing](assets/images/README-images/lighthouse-test.png)
+  ![Lighthouse testing](assets/images/README-images/lighthouse-test.png)
   * I had originally placed a video on my index page which brought my performance score down to around 36%. Unfortunately, as I do not yet have the knowledge to remove all the unused javascript causing this low performance score I opted to switch out the video for an interactive map from Google showing the location of the festival.
   * I had a fairly low score for performance on both line up page and gallery page which I fixed by reducing the image sizes.
 - **HTML and CSS Validation**
@@ -172,11 +172,15 @@ The page is then given a site URL which you will see above the source section
 Once this is complete you should be able to view the webpage online, this is updated every so often which allows the user to see any changes in almost real time.
 ---
 
-## Credits
+## Credits and Acknowledgments
 - [Google Fonts](https://fonts.google.com/)
 - [Bing Image Creator](https://www.bing.com/images/create?FORM=GENILP)
----
-
-## Acknowledgments
+- [W3Schools](https://www.w3schools.com/)
 - [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) for the grayscale image filter
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+- [Google Images](https://images.google.co.uk/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Github](https://github.com/)
+- [VS Code](https://code.visualstudio.com/)
+- [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/?hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=1147890658588794&hsa_ad&hsa_src=o&hsa_tgt=kwd-71743597220113%3Aloc-188&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&msclkid=cb5b5e178d031bfb76043ac0f09bb7a2&utm_source=bing&utm_medium=cpc&utm_campaign=CI%20-%20UK%20-%20Search%20-%20Brand&utm_term=code%20institute&utm_content=CI%20-%20UK%20-%20Search%20-%20Brand%20-%20Exact)
 ---

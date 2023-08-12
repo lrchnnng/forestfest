@@ -326,7 +326,7 @@ h1, h2, h3 {
     /* Info Cards */
     #info-cards {
         display: flex;
-        justify-items: center
+        justify-items: center;
         padding: 12px;
     }
 
