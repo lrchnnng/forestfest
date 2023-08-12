@@ -16,8 +16,7 @@
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
-* [Credits](#credits)
-* [Acknowledgments](#acknowledgments)
+* [Credits and Acknowledgments](#credits-and-acknowledgements)
 
 ![Website Mockup](assets/images/README-images/forest-fest-mockup.jpg)
 
