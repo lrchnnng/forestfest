@@ -242,16 +242,16 @@ h1, h2, h3 {
 
     /* Gallery Section */
     #gallery-container {
-        background-size: cover;
-        background: url(../images/hero-img.jpg) no-repeat center center;
-        background-size: 100%;
-        padding: 12px;
+        background-color: var(--dark-decoration);
+        padding: 12px 0;
     }
     
     #gallery-title {
         background-color: var(--fade);
-        margin: 24px;
-        padding: 12px 6px;
+        margin: 24px 0;
+        padding: 12px 0;
+        font-family: Barrio, sans-serif;
+        width: 100%;
     }
 
     #gallery img {
