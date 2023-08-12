@@ -162,7 +162,6 @@ I used a combination of AI images using [Bing Image Creator](https://www.bing.co
 
 ## Deployment
 GitHub pages deployment
-
 *Log in to GitHub*
 In your Repository section, select the project repository that you want to deploy
 In the menu located at the top of this section, click 'Settings'

@@ -152,7 +152,8 @@ h1, h2, h3 {
     }
     
     #line-up {
-        background-color: var(--dark-decoration);    
+        background-color: var(--dark-decoration);
+        padding: 24px 0;    
     }
 
     .line-up-card {
